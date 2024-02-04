@@ -5,8 +5,9 @@ import * as React from "react";
 import { styled } from "@mui/material/styles";
 import Tooltip, { TooltipProps, tooltipClasses } from "@mui/material/Tooltip";
 import Typography from "@mui/material/Typography";
-import SearchResult2 from "./assets/search_result2.json";
 import Divider from "@mui/material/Divider";
+import Button from "@mui/material/Button";
+import { useState } from "react";
 
 type Modifier = {
     text: string;
@@ -16,7 +17,36 @@ type Modifier = {
     tier: number;
 };
 
+type Stash = {
+    Name: string;
+    X: number;
+    Y: number;
+};
+
+type Listing = {
+    Stash: Stash;
+};
+
+type ServerItem = {
+    id: string;
+    Name: string;
+    W: number;
+    H: number;
+    Icon: string;
+    BaseType: string;
+    ImplicitMods: string[];
+    ExplicitMods: string[];
+    CraftedMods: string[];
+};
+
+type ServerItemDescription = {
+    Name: string;
+    Listing: Listing;
+    Item: ServerItem;
+};
+
 class Item {
+    id: string;
     name: string;
     baseType: string;
     image: string;
@@ -29,6 +59,7 @@ class Item {
     craftedModifiers: Modifier[];
 
     constructor() {
+        this.id = "???";
         this.name = "???";
         this.baseType = "???";
         this.image = "???";
@@ -46,7 +77,7 @@ const HtmlTooltip = styled(({ className, ...props }: TooltipProps) => (
     <Tooltip {...props} classes={{ popper: className }} />
 ))(({ theme }) => ({
     [`& .${tooltipClasses.tooltip}`]: {
-        backgroundColor: "#f5f5f9",
+        backgroundColor: "black",
         color: "rgba(0, 0, 0, 0.87)",
         maxWidth: "none",
         fontSize: theme.typography.pxToRem(12),
@@ -58,23 +89,23 @@ const cellDimension: number = 31;
 const itemCellDimension: number = 31;
 const borderSize: number = 2;
 
-const parseStashJSON = () => {
+const parseStashJSON = (serverItems: ServerItemDescription[]) => {
     const result: Item[] = [];
 
-    const obj = SearchResult2;
-    obj.result.forEach((itemDescription) => {
+    serverItems.forEach((itemDescription: ServerItemDescription) => {
         const item = new Item();
 
-        item.name = itemDescription.item.name;
-        item.baseType = itemDescription.item.baseType;
-        item.row = itemDescription.listing.stash.y;
-        item.column = itemDescription.listing.stash.x;
-        item.width = itemDescription.item.w;
-        item.height = itemDescription.item.h;
-        item.image = itemDescription.item.icon;
+        item.id = itemDescription.Item.id;
+        item.name = itemDescription.Item.Name;
+        item.baseType = itemDescription.Item.BaseType;
+        item.row = itemDescription.Listing.Stash.Y;
+        item.column = itemDescription.Listing.Stash.X;
+        item.width = itemDescription.Item.W;
+        item.height = itemDescription.Item.H;
+        item.image = itemDescription.Item.Icon;
 
-        if (itemDescription.item.implicitMods) {
-            itemDescription.item.implicitMods.forEach((text) => {
+        if (itemDescription.Item.ImplicitMods) {
+            itemDescription.Item.ImplicitMods.forEach((text) => {
                 console.log(text);
                 item.implicitModifiers.push({
                     text: text,
@@ -86,8 +117,8 @@ const parseStashJSON = () => {
             });
         }
 
-        if (itemDescription.item.explicitMods) {
-            itemDescription.item.explicitMods.forEach((text) => {
+        if (itemDescription.Item.ExplicitMods) {
+            itemDescription.Item.ExplicitMods.forEach((text) => {
                 item.explicitModifiers.push({
                     text: text,
                     value: 0,
@@ -98,8 +129,8 @@ const parseStashJSON = () => {
             });
         }
 
-        if (itemDescription.item.craftedMods) {
-            itemDescription.item.craftedMods.forEach((text) => {
+        if (itemDescription.Item.CraftedMods) {
+            itemDescription.Item.CraftedMods.forEach((text) => {
                 item.craftedModifiers.push({
                     text: text,
                     value: 0,
@@ -116,16 +147,15 @@ const parseStashJSON = () => {
     return result;
 };
 
-const generateRenderedItems = () => {
-    const items = parseStashJSON();
+const generateRenderedItems = (items: Item[]) => {
     const renderedItem: React.ReactElement[] = [];
-
     items.forEach((item) => {
         renderedItem.push(
             <Box
                 position="absolute"
                 top={34 + item.row * (cellDimension + borderSize) + "px"}
                 left={21 + item.column * (cellDimension + borderSize) + "px"}
+                key={item.id}
             >
                 <HtmlTooltip
                     placement="top"
@@ -136,7 +166,7 @@ const generateRenderedItems = () => {
                                     color="inherit"
                                     sx={{ textAlign: "center" }}
                                 >
-                                    <span style={{ color: "yellow" }}>
+                                    <span style={{ color: "#FEFE76" }}>
                                         {item.name}
                                     </span>
                                 </Typography>
@@ -144,7 +174,7 @@ const generateRenderedItems = () => {
                                     color="inherit"
                                     sx={{ textAlign: "center" }}
                                 >
-                                    <span style={{ color: "yellow" }}>
+                                    <span style={{ color: "#FEFE76" }}>
                                         {item.baseType}
                                     </span>
                                 </Typography>
@@ -153,17 +183,20 @@ const generateRenderedItems = () => {
                                         backgroundColor: "yellow",
                                     }}
                                 ></Divider>
-                                {item.implicitModifiers.map((modifier) => (
-                                    <Typography
-                                        sx={{
-                                            textAlign: "center",
-                                        }}
-                                    >
-                                        <span style={{ color: "blue" }}>
-                                            {modifier.text}
-                                        </span>
-                                    </Typography>
-                                ))}
+                                {item.implicitModifiers.map(
+                                    (modifier, index) => (
+                                        <Typography
+                                            sx={{
+                                                textAlign: "center",
+                                            }}
+                                            key={item.id + "implicit" + index}
+                                        >
+                                            <span style={{ color: "#FEFE76" }}>
+                                                {modifier.text}
+                                            </span>
+                                        </Typography>
+                                    )
+                                )}
                                 {item.implicitModifiers.length > 0 ? (
                                     <Divider
                                         sx={{
@@ -171,28 +204,34 @@ const generateRenderedItems = () => {
                                         }}
                                     ></Divider>
                                 ) : null}
-                                {item.explicitModifiers.map((modifier) => (
-                                    <Typography
-                                        sx={{
-                                            textAlign: "center",
-                                        }}
-                                    >
-                                        <span style={{ color: "blue" }}>
-                                            {modifier.text}
-                                        </span>
-                                    </Typography>
-                                ))}
-                                {item.craftedModifiers.map((modifier) => (
-                                    <Typography
-                                        sx={{
-                                            textAlign: "center",
-                                        }}
-                                    >
-                                        <span style={{ color: "#ADD8E6" }}>
-                                            {modifier.text}
-                                        </span>
-                                    </Typography>
-                                ))}
+                                {item.explicitModifiers.map(
+                                    (modifier, index) => (
+                                        <Typography
+                                            sx={{
+                                                textAlign: "center",
+                                            }}
+                                            key={item.id + "explicit" + index}
+                                        >
+                                            <span style={{ color: "#8787FE" }}>
+                                                {modifier.text}
+                                            </span>
+                                        </Typography>
+                                    )
+                                )}
+                                {item.craftedModifiers.map(
+                                    (modifier, index) => (
+                                        <Typography
+                                            sx={{
+                                                textAlign: "center",
+                                            }}
+                                            key={item.id + "crafted" + index}
+                                        >
+                                            <span style={{ color: "#ADD8E6" }}>
+                                                {modifier.text}
+                                            </span>
+                                        </Typography>
+                                    )
+                                )}
                             </Box>
                         </React.Fragment>
                     }
@@ -217,6 +256,24 @@ const generateRenderedItems = () => {
 };
 
 function App() {
+    const [items, setItems] = useState<Item[]>([]);
+
+    function handleClick() {
+        fetch("http://localhost:8080/search?account=kkevinchou", {
+            method: "GET",
+            headers: {
+                Accept: "application/json",
+                "Content-Type": "application/json",
+            },
+        })
+            .then((response) => {
+                return response.json();
+            })
+            .then((jsonResponse) => {
+                setItems(parseStashJSON(jsonResponse.Result));
+            });
+    }
+
     return (
         <>
             <PrimarySearchAppBar></PrimarySearchAppBar>
@@ -239,9 +296,12 @@ function App() {
                     }}
                     position={"relative"}
                 >
-                    {generateRenderedItems()}
+                    {generateRenderedItems(items)}
                 </Box>
             </Box>
+            <Button variant="contained" onClick={handleClick}>
+                Load
+            </Button>
         </>
     );
 }
