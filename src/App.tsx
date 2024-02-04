@@ -191,7 +191,7 @@ const generateRenderedItems = (items: Item[]) => {
                                             }}
                                             key={item.id + "implicit" + index}
                                         >
-                                            <span style={{ color: "#FEFE76" }}>
+                                            <span style={{ color: "#8787FE" }}>
                                                 {modifier.text}
                                             </span>
                                         </Typography>

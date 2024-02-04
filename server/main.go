@@ -3,6 +3,8 @@ package main
 import (
 	"fmt"
 	"net/http"
+
+	"github.com/kkevinchou/stashviewer/api"
 )
 
 func main() {
@@ -10,7 +12,7 @@ func main() {
 }
 
 func startAPI() {
-	http.HandleFunc("/search", handler)
+	http.HandleFunc("/search", api.Handler)
 
 	fmt.Println("Server running on port 8080")
 	err := http.ListenAndServe(":8080", nil)
