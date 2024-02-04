@@ -1,0 +1,940 @@
+{
+    "result": [
+        {
+            "id": "ab7498868d984327490706f299d4ae1dcb4ea67fcfa0dccc179e1988932652c6",
+            "listing": {
+                "method": "psapi",
+                "indexed": "2024-02-03T22:25:13Z",
+                "stash": {
+                    "name": "~price 69 divine",
+                    "x": 3,
+                    "y": 0
+                },
+                "whisper": "@ROT_zombiechou Hi, I would like to buy your Torment Urge Shagreen Boots listed for 69 divine in Affliction (stash tab \"~price 69 divine\"; position: left 4, top 1)",
+                "whisper_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIxNTUzN2E1OWJkNjI5ZDRiZGIzMzE5ODljYjM4MThkNSIsImlzcyI6IlYyS2pPN3JmcCIsImF1ZCI6IjViZjNmNjQ5LWNlMTktNGFjYy1hZDk2LThiZjhmMTM2NWI3MSIsImRzdCI6IlJPVF96b21iaWVjaG91IiwibG9jIjoiZW5fVVMiLCJ0b2siOiJpdGVtIiwic3ViIjoiYWI3NDk4ODY4ZDk4NDMyNzQ5MDcwNmYyOTlkNGFlMWRjYjRlYTY3ZmNmYTBkY2NjMTc5ZTE5ODg5MzI2NTJjNiIsImRhdCI6ImIyNGQ0ZGU1YjdkNDZmMDg3YTY0MGRhMmY4ZWRlMTJjIiwiaWF0IjoxNzA2OTk5MTQ1LCJleHAiOjE3MDY5OTk0NDV9.lDFQ0RPcbjBmA8j2ruUajpNA3DOx-zlhNGnDl54_3cU",
+                "account": {
+                    "name": "kkevinchou",
+                    "online": {
+                        "league": "Affliction"
+                    },
+                    "lastCharacterName": "ROT_zombiechou",
+                    "language": "en_US",
+                    "realm": "pc"
+                },
+                "price": {
+                    "type": "~price",
+                    "amount": 69,
+                    "currency": "divine"
+                }
+            },
+            "item": {
+                "verified": true,
+                "w": 2,
+                "h": 2,
+                "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb290cy9Cb290c0RleDQiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MSwic2VhcmluZyI6dHJ1ZSwidGFuZ2xlZCI6dHJ1ZSwiZnJhY3R1cmVkIjp0cnVlfV0/a298de4c9e/BootsDex4.png",
+                "league": "Affliction",
+                "id": "ab7498868d984327490706f299d4ae1dcb4ea67fcfa0dccc179e1988932652c6",
+                "searing": true,
+                "tangled": true,
+                "fractured": true,
+                "sockets": [
+                    {
+                        "group": 0,
+                        "attr": "D",
+                        "sColour": "G"
+                    },
+                    {
+                        "group": 0,
+                        "attr": "S",
+                        "sColour": "R"
+                    },
+                    {
+                        "group": 0,
+                        "attr": "D",
+                        "sColour": "G"
+                    },
+                    {
+                        "group": 0,
+                        "attr": "D",
+                        "sColour": "G"
+                    }
+                ],
+                "name": "Torment Urge",
+                "typeLine": "Shagreen Boots",
+                "baseType": "Shagreen Boots",
+                "rarity": "Rare",
+                "ilvl": 86,
+                "identified": true,
+                "properties": [
+                    {
+                        "name": "Quality",
+                        "values": [
+                            [
+                                "+20%",
+                                1
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 6
+                    },
+                    {
+                        "name": "Evasion Rating",
+                        "values": [
+                            [
+                                "364",
+                                1
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 17
+                    }
+                ],
+                "requirements": [
+                    {
+                        "name": "Level",
+                        "values": [
+                            [
+                                "68",
+                                0
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 62
+                    },
+                    {
+                        "name": "Dex",
+                        "values": [
+                            [
+                                "97",
+                                0
+                            ]
+                        ],
+                        "displayMode": 1,
+                        "type": 64
+                    }
+                ],
+                "implicitMods": [
+                    "Gain 4% of Physical Damage as Extra Cold Damage",
+                    "4% increased Action Speed"
+                ],
+                "explicitMods": [
+                    "+46 to maximum Life",
+                    "+44% to Fire Resistance",
+                    "+35% to Chaos Resistance",
+                    "35% increased Movement Speed"
+                ],
+                "craftedMods": [
+                    "63% increased Evasion Rating"
+                ],
+                "fracturedMods": [
+                    "+43% to Lightning Resistance"
+                ],
+                "frameType": 2,
+                "extended": {
+                    "base_defence_percentile": 53,
+                    "ev": 364,
+                    "mods": {
+                        "explicit": [
+                            {
+                                "name": "of the Magma",
+                                "tier": "S2",
+                                "level": 72,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_3372524247",
+                                        "min": 42,
+                                        "max": 45
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Hellion's",
+                                "tier": "P1",
+                                "level": 86,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_2250533757",
+                                        "min": 35,
+                                        "max": 35
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "of Bameth",
+                                "tier": "S1",
+                                "level": 81,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_2923486259",
+                                        "min": 31,
+                                        "max": 35
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Stout",
+                                "tier": "P5",
+                                "level": 24,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_3299347043",
+                                        "min": 40,
+                                        "max": 49
+                                    }
+                                ]
+                            }
+                        ],
+                        "implicit": [
+                            {
+                                "name": "",
+                                "tier": "",
+                                "level": 75,
+                                "magnitudes": [
+                                    {
+                                        "hash": "implicit.stat_2878959938",
+                                        "min": 4,
+                                        "max": 4
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "",
+                                "tier": "",
+                                "level": 75,
+                                "magnitudes": [
+                                    {
+                                        "hash": "implicit.stat_979246511",
+                                        "min": 4,
+                                        "max": 4
+                                    }
+                                ]
+                            }
+                        ],
+                        "fractured": [
+                            {
+                                "name": "of the Lightning",
+                                "tier": "S2",
+                                "level": 72,
+                                "magnitudes": [
+                                    {
+                                        "hash": "fractured.stat_1671376347",
+                                        "min": 42,
+                                        "max": 45
+                                    }
+                                ]
+                            }
+                        ],
+                        "crafted": [
+                            {
+                                "name": "Upgraded",
+                                "tier": "R3",
+                                "level": 75,
+                                "magnitudes": [
+                                    {
+                                        "hash": "crafted.stat_124859000",
+                                        "min": 56,
+                                        "max": 74
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "hashes": {
+                        "explicit": [
+                            [
+                                "explicit.stat_3299347043",
+                                [
+                                    3
+                                ]
+                            ],
+                            [
+                                "explicit.stat_3372524247",
+                                [
+                                    0
+                                ]
+                            ],
+                            [
+                                "explicit.stat_2923486259",
+                                [
+                                    2
+                                ]
+                            ],
+                            [
+                                "explicit.stat_2250533757",
+                                [
+                                    1
+                                ]
+                            ]
+                        ],
+                        "implicit": [
+                            [
+                                "implicit.stat_979246511",
+                                [
+                                    1
+                                ]
+                            ],
+                            [
+                                "implicit.stat_2878959938",
+                                [
+                                    0
+                                ]
+                            ]
+                        ],
+                        "fractured": [
+                            [
+                                "fractured.stat_1671376347",
+                                [
+                                    0
+                                ]
+                            ]
+                        ],
+                        "crafted": [
+                            [
+                                "crafted.stat_124859000",
+                                [
+                                    0
+                                ]
+                            ]
+                        ]
+                    },
+                    "text": "SXRlbSBDbGFzczogQm9vdHMNClJhcml0eTogUmFyZQ0KVG9ybWVudCBVcmdlDQpTaGFncmVlbiBCb290cw0KLS0tLS0tLS0NClF1YWxpdHk6ICsyMCUgKGF1Z21lbnRlZCkNCkV2YXNpb24gUmF0aW5nOiAzNjQgKGF1Z21lbnRlZCkNCi0tLS0tLS0tDQpSZXF1aXJlbWVudHM6DQpMZXZlbDogNjgNCkRleDogOTcNCi0tLS0tLS0tDQpTb2NrZXRzOiBHLVItRy1HIA0KLS0tLS0tLS0NCkl0ZW0gTGV2ZWw6IDg2DQotLS0tLS0tLQ0KR2FpbiA0JSBvZiBQaHlzaWNhbCBEYW1hZ2UgYXMgRXh0cmEgQ29sZCBEYW1hZ2UgKGltcGxpY2l0KQ0KNCUgaW5jcmVhc2VkIEFjdGlvbiBTcGVlZCAoaW1wbGljaXQpDQotLS0tLS0tLQ0KKzQzJSB0byBMaWdodG5pbmcgUmVzaXN0YW5jZSAoZnJhY3R1cmVkKQ0KKzQ2IHRvIG1heGltdW0gTGlmZQ0KKzQ0JSB0byBGaXJlIFJlc2lzdGFuY2UNCiszNSUgdG8gQ2hhb3MgUmVzaXN0YW5jZQ0KMzUlIGluY3JlYXNlZCBNb3ZlbWVudCBTcGVlZA0KNjMlIGluY3JlYXNlZCBFdmFzaW9uIFJhdGluZyAoY3JhZnRlZCkNClNlYXJpbmcgRXhhcmNoIEl0ZW0NCkVhdGVyIG9mIFdvcmxkcyBJdGVtDQotLS0tLS0tLQ0KRnJhY3R1cmVkIEl0ZW0NCg=="
+                }
+            }
+        },
+        {
+            "id": "3f3555e6270c86a7a799f3c9c3ec1a2a4a121b40b6861274e24a10847a58323a",
+            "listing": {
+                "method": "psapi",
+                "indexed": "2024-02-03T22:25:13Z",
+                "stash": {
+                    "name": "~price 69 divine",
+                    "x": 0,
+                    "y": 0
+                },
+                "whisper": "@ROT_zombiechou Hi, I would like to buy your Dragon Shell Varnished Coat listed for 69 divine in Affliction (stash tab \"~price 69 divine\"; position: left 1, top 1)",
+                "whisper_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIxNTUzN2E1OWJkNjI5ZDRiZGIzMzE5ODljYjM4MThkNSIsImlzcyI6IlYyS2pPN3JmcCIsImF1ZCI6IjViZjNmNjQ5LWNlMTktNGFjYy1hZDk2LThiZjhmMTM2NWI3MSIsImRzdCI6IlJPVF96b21iaWVjaG91IiwibG9jIjoiZW5fVVMiLCJ0b2siOiJpdGVtIiwic3ViIjoiM2YzNTU1ZTYyNzBjODZhN2E3OTlmM2M5YzNlYzFhMmE0YTEyMWI0MGI2ODYxMjc0ZTI0YTEwODQ3YTU4MzIzYSIsImRhdCI6ImI5OTc4OTQ4OWQ5MGY2ZWE3ZTNiMWNlZWEzYTdjZmNkIiwiaWF0IjoxNzA2OTk5MTQ1LCJleHAiOjE3MDY5OTk0NDV9.4TzNZyPAF2kYGjUu3b9m-OXKp88ffofd6Ivtm6_6300",
+                "account": {
+                    "name": "kkevinchou",
+                    "online": {
+                        "league": "Affliction"
+                    },
+                    "lastCharacterName": "ROT_zombiechou",
+                    "language": "en_US",
+                    "realm": "pc"
+                },
+                "price": {
+                    "type": "~price",
+                    "amount": 69,
+                    "currency": "divine"
+                }
+            },
+            "item": {
+                "verified": true,
+                "w": 2,
+                "h": 3,
+                "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb2R5QXJtb3Vycy9Cb2R5RGV4SW50MkIiLCJ3IjoyLCJoIjozLCJzY2FsZSI6MSwic2VhcmluZyI6dHJ1ZSwidGFuZ2xlZCI6dHJ1ZX1d/203a5c1fc8/BodyDexInt2B.png",
+                "league": "Affliction",
+                "id": "3f3555e6270c86a7a799f3c9c3ec1a2a4a121b40b6861274e24a10847a58323a",
+                "searing": true,
+                "tangled": true,
+                "sockets": [
+                    {
+                        "group": 0,
+                        "attr": "D",
+                        "sColour": "G"
+                    },
+                    {
+                        "group": 0,
+                        "attr": "S",
+                        "sColour": "R"
+                    },
+                    {
+                        "group": 0,
+                        "attr": "D",
+                        "sColour": "G"
+                    },
+                    {
+                        "group": 0,
+                        "attr": "D",
+                        "sColour": "G"
+                    },
+                    {
+                        "group": 0,
+                        "attr": "I",
+                        "sColour": "B"
+                    },
+                    {
+                        "group": 0,
+                        "attr": "D",
+                        "sColour": "G"
+                    }
+                ],
+                "name": "Dragon Shell",
+                "typeLine": "Varnished Coat",
+                "baseType": "Varnished Coat",
+                "rarity": "Rare",
+                "ilvl": 81,
+                "identified": true,
+                "properties": [
+                    {
+                        "name": "Quality",
+                        "values": [
+                            [
+                                "+20%",
+                                1
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 6
+                    },
+                    {
+                        "name": "Evasion Rating",
+                        "values": [
+                            [
+                                "1436",
+                                1
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 17
+                    },
+                    {
+                        "name": "Energy Shield",
+                        "values": [
+                            [
+                                "329",
+                                1
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 18
+                    }
+                ],
+                "requirements": [
+                    {
+                        "name": "Level",
+                        "values": [
+                            [
+                                "62",
+                                0
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 62
+                    },
+                    {
+                        "name": "Dex",
+                        "values": [
+                            [
+                                "96",
+                                0
+                            ]
+                        ],
+                        "displayMode": 1,
+                        "type": 64
+                    },
+                    {
+                        "name": "Int",
+                        "values": [
+                            [
+                                "96",
+                                0
+                            ]
+                        ],
+                        "displayMode": 1,
+                        "type": 65
+                    }
+                ],
+                "implicitMods": [
+                    "Grace has 21% increased Aura Effect",
+                    "10% increased effect of Non-Curse Auras from your Skills"
+                ],
+                "explicitMods": [
+                    "+8% chance to Suppress Spell Damage",
+                    "+257 to Evasion Rating",
+                    "95% increased Evasion and Energy Shield",
+                    "+69 to maximum Energy Shield",
+                    "+45% to Fire Resistance",
+                    "22% increased Stun and Block Recovery"
+                ],
+                "frameType": 2,
+                "extended": {
+                    "base_defence_percentile": 51,
+                    "ev": 1436,
+                    "es": 329,
+                    "mods": {
+                        "explicit": [
+                            {
+                                "name": "Mosquito's",
+                                "tier": "P6",
+                                "level": 2,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_1999113824",
+                                        "min": 6,
+                                        "max": 13
+                                    },
+                                    {
+                                        "hash": "explicit.stat_2511217560",
+                                        "min": 6,
+                                        "max": 7
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "of Rebuttal",
+                                "tier": "S5",
+                                "level": 45,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_3680664274",
+                                        "min": 8,
+                                        "max": 10
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Unreal",
+                                "tier": "P3",
+                                "level": 72,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_1999113824",
+                                        "min": 80,
+                                        "max": 91
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "of Stone Skin",
+                                "tier": "S5",
+                                "level": 17,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_2511217560",
+                                        "min": 14,
+                                        "max": 16
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "of the Magma",
+                                "tier": "S2",
+                                "level": 72,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_3372524247",
+                                        "min": 42,
+                                        "max": 45
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Apparition's",
+                                "tier": "P2",
+                                "level": 69,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_53045048",
+                                        "min": 221,
+                                        "max": 300
+                                    },
+                                    {
+                                        "hash": "explicit.stat_4052037485",
+                                        "min": 61,
+                                        "max": 72
+                                    }
+                                ]
+                            }
+                        ],
+                        "implicit": [
+                            {
+                                "name": "",
+                                "tier": "",
+                                "level": 75,
+                                "magnitudes": [
+                                    {
+                                        "hash": "implicit.stat_1880071428",
+                                        "min": 9,
+                                        "max": 10
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "",
+                                "tier": "",
+                                "level": 75,
+                                "magnitudes": [
+                                    {
+                                        "hash": "implicit.stat_397427740",
+                                        "min": 19,
+                                        "max": 21
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "hashes": {
+                        "explicit": [
+                            [
+                                "explicit.stat_3680664274",
+                                [
+                                    1
+                                ]
+                            ],
+                            [
+                                "explicit.stat_53045048",
+                                [
+                                    5
+                                ]
+                            ],
+                            [
+                                "explicit.stat_1999113824",
+                                [
+                                    0,
+                                    2
+                                ]
+                            ],
+                            [
+                                "explicit.stat_4052037485",
+                                [
+                                    5
+                                ]
+                            ],
+                            [
+                                "explicit.stat_3372524247",
+                                [
+                                    4
+                                ]
+                            ],
+                            [
+                                "explicit.stat_2511217560",
+                                [
+                                    0,
+                                    3
+                                ]
+                            ]
+                        ],
+                        "implicit": [
+                            [
+                                "implicit.stat_397427740",
+                                [
+                                    1
+                                ]
+                            ],
+                            [
+                                "implicit.stat_1880071428",
+                                [
+                                    0
+                                ]
+                            ]
+                        ]
+                    },
+                    "text": "SXRlbSBDbGFzczogQm9keSBBcm1vdXJzDQpSYXJpdHk6IFJhcmUNCkRyYWdvbiBTaGVsbA0KVmFybmlzaGVkIENvYXQNCi0tLS0tLS0tDQpRdWFsaXR5OiArMjAlIChhdWdtZW50ZWQpDQpFdmFzaW9uIFJhdGluZzogMTQzNiAoYXVnbWVudGVkKQ0KRW5lcmd5IFNoaWVsZDogMzI5IChhdWdtZW50ZWQpDQotLS0tLS0tLQ0KUmVxdWlyZW1lbnRzOg0KTGV2ZWw6IDYyDQpEZXg6IDk2DQpJbnQ6IDk2DQotLS0tLS0tLQ0KU29ja2V0czogRy1SLUctRy1CLUcgDQotLS0tLS0tLQ0KSXRlbSBMZXZlbDogODENCi0tLS0tLS0tDQpHcmFjZSBoYXMgMjElIGluY3JlYXNlZCBBdXJhIEVmZmVjdCAoaW1wbGljaXQpDQoxMCUgaW5jcmVhc2VkIGVmZmVjdCBvZiBOb24tQ3Vyc2UgQXVyYXMgZnJvbSB5b3VyIFNraWxscyAoaW1wbGljaXQpDQotLS0tLS0tLQ0KKzglIGNoYW5jZSB0byBTdXBwcmVzcyBTcGVsbCBEYW1hZ2UNCisyNTcgdG8gRXZhc2lvbiBSYXRpbmcNCjk1JSBpbmNyZWFzZWQgRXZhc2lvbiBhbmQgRW5lcmd5IFNoaWVsZA0KKzY5IHRvIG1heGltdW0gRW5lcmd5IFNoaWVsZA0KKzQ1JSB0byBGaXJlIFJlc2lzdGFuY2UNCjIyJSBpbmNyZWFzZWQgU3R1biBhbmQgQmxvY2sgUmVjb3ZlcnkNClNlYXJpbmcgRXhhcmNoIEl0ZW0NCkVhdGVyIG9mIFdvcmxkcyBJdGVtDQo="
+                }
+            }
+        },
+        {
+            "id": "6d17991e437cd2787865ec797088aa1eeedbed614415f68cc059f9d2959a6a60",
+            "listing": {
+                "method": "psapi",
+                "indexed": "2024-02-03T22:25:13Z",
+                "stash": {
+                    "name": "~price 69 divine",
+                    "x": 3,
+                    "y": 15
+                },
+                "whisper": "@ROT_zombiechou Hi, I would like to buy your Skull Scratch Harpy Rapier listed for 69 divine in Affliction (stash tab \"~price 69 divine\"; position: left 4, top 4)",
+                "whisper_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIxNTUzN2E1OWJkNjI5ZDRiZGIzMzE5ODljYjM4MThkNSIsImlzcyI6IlYyS2pPN3JmcCIsImF1ZCI6IjViZjNmNjQ5LWNlMTktNGFjYy1hZDk2LThiZjhmMTM2NWI3MSIsImRzdCI6IlJPVF96b21iaWVjaG91IiwibG9jIjoiZW5fVVMiLCJ0b2siOiJpdGVtIiwic3ViIjoiNmQxNzk5MWU0MzdjZDI3ODc4NjVlYzc5NzA4OGFhMWVlZWRiZWQ2MTQ0MTVmNjhjYzA1OWY5ZDI5NTlhNmE2MCIsImRhdCI6IjE4ZTllY2M1YTBhZGRlNTJlMzJjNzMxZTdkMWFjMDU3IiwiaWF0IjoxNzA2OTk5MTQ1LCJleHAiOjE3MDY5OTk0NDV9.9gdK8giIMdgUqAjCznWsR_Eomm5qcDL973J660bIyDU",
+                "account": {
+                    "name": "kkevinchou",
+                    "online": {
+                        "league": "Affliction"
+                    },
+                    "lastCharacterName": "ROT_zombiechou",
+                    "language": "en_US",
+                    "realm": "pc"
+                },
+                "price": {
+                    "type": "~price",
+                    "amount": 69,
+                    "currency": "divine"
+                }
+            },
+            "item": {
+                "verified": true,
+                "w": 1,
+                "h": 4,
+                "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9PbmVIYW5kV2VhcG9ucy9SYXBpZXJzL1JhcGllcjgiLCJ3IjoxLCJoIjo0LCJzY2FsZSI6MSwic2hhcGVyIjp0cnVlfV0/18b11e0e68/Rapier8.png",
+                "league": "Affliction",
+                "id": "6d17991e437cd2787865ec797088aa1eeedbed614415f68cc059f9d2959a6a60",
+                "influences": {
+                    "shaper": true
+                },
+                "shaper": true,
+                "sockets": [
+                    {
+                        "group": 0,
+                        "attr": "S",
+                        "sColour": "R"
+                    },
+                    {
+                        "group": 0,
+                        "attr": "S",
+                        "sColour": "R"
+                    },
+                    {
+                        "group": 0,
+                        "attr": "S",
+                        "sColour": "R"
+                    }
+                ],
+                "name": "Skull Scratch",
+                "typeLine": "Harpy Rapier",
+                "baseType": "Harpy Rapier",
+                "rarity": "Rare",
+                "ilvl": 83,
+                "identified": true,
+                "properties": [
+                    {
+                        "name": "One Handed Sword",
+                        "values": [],
+                        "displayMode": 0
+                    },
+                    {
+                        "name": "Physical Damage",
+                        "values": [
+                            [
+                                "31-72",
+                                0
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 9
+                    },
+                    {
+                        "name": "Critical Strike Chance",
+                        "values": [
+                            [
+                                "5.70%",
+                                0
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 12
+                    },
+                    {
+                        "name": "Attacks per Second",
+                        "values": [
+                            [
+                                "1.40",
+                                0
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 13
+                    },
+                    {
+                        "name": "Weapon Range: {0} metres",
+                        "values": [
+                            [
+                                "1.4",
+                                0
+                            ]
+                        ],
+                        "displayMode": 3,
+                        "type": 14
+                    }
+                ],
+                "requirements": [
+                    {
+                        "name": "Level",
+                        "values": [
+                            [
+                                "70",
+                                0
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 62
+                    },
+                    {
+                        "name": "Dex",
+                        "values": [
+                            [
+                                "212",
+                                0
+                            ]
+                        ],
+                        "displayMode": 1,
+                        "type": 64
+                    }
+                ],
+                "implicitMods": [
+                    "+35% to Global Critical Strike Multiplier"
+                ],
+                "explicitMods": [
+                    "+1 to Level of Socketed Gems",
+                    "93% increased Critical Strike Chance for Spells",
+                    "+33% to Global Critical Strike Multiplier",
+                    "Gain 20% of Physical Damage as Extra Cold Damage",
+                    "Damage Penetrates 6% Elemental Resistances"
+                ],
+                "craftedMods": [
+                    "15% increased Trap Throwing Speed"
+                ],
+                "frameType": 2,
+                "extended": {
+                    "dps": 86.13,
+                    "pdps": 86.13,
+                    "edps": 0,
+                    "dps_aug": true,
+                    "pdps_aug": true,
+                    "mods": {
+                        "explicit": [
+                            {
+                                "name": "of Ruin",
+                                "tier": "S0",
+                                "level": 59,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_737908626",
+                                        "min": 80,
+                                        "max": 99
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "of Ferocity",
+                                "tier": "S2",
+                                "level": 59,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_3556824919",
+                                        "min": 30,
+                                        "max": 34
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "The Shaper's",
+                                "tier": "P1",
+                                "level": 80,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_979246511",
+                                        "min": 18,
+                                        "max": 20
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "The Shaper's",
+                                "tier": "P1",
+                                "level": 83,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_2101383955",
+                                        "min": 6,
+                                        "max": 6
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Paragon's",
+                                "tier": "P1",
+                                "level": 50,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_2843100721",
+                                        "min": 1,
+                                        "max": 1
+                                    }
+                                ]
+                            }
+                        ],
+                        "implicit": [
+                            {
+                                "name": "",
+                                "tier": "",
+                                "level": 1,
+                                "magnitudes": [
+                                    {
+                                        "hash": "implicit.stat_3556824919",
+                                        "min": 35,
+                                        "max": 35
+                                    }
+                                ]
+                            }
+                        ],
+                        "crafted": [
+                            {
+                                "name": "of Craft",
+                                "tier": "R2",
+                                "level": 68,
+                                "magnitudes": [
+                                    {
+                                        "hash": "crafted.stat_118398748",
+                                        "min": 13,
+                                        "max": 15
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "hashes": {
+                        "explicit": [
+                            [
+                                "explicit.stat_2843100721",
+                                [
+                                    4
+                                ]
+                            ],
+                            [
+                                "explicit.stat_737908626",
+                                [
+                                    0
+                                ]
+                            ],
+                            [
+                                "explicit.stat_3556824919",
+                                [
+                                    1
+                                ]
+                            ],
+                            [
+                                "explicit.stat_979246511",
+                                [
+                                    2
+                                ]
+                            ],
+                            [
+                                "explicit.stat_2101383955",
+                                [
+                                    3
+                                ]
+                            ]
+                        ],
+                        "implicit": [
+                            [
+                                "implicit.stat_3556824919",
+                                [
+                                    0
+                                ]
+                            ]
+                        ],
+                        "crafted": [
+                            [
+                                "crafted.stat_118398748",
+                                [
+                                    0
+                                ]
+                            ]
+                        ]
+                    },
+                    "text": "SXRlbSBDbGFzczogVGhydXN0aW5nIE9uZSBIYW5kIFN3b3Jkcw0KUmFyaXR5OiBSYXJlDQpTa3VsbCBTY3JhdGNoDQpIYXJweSBSYXBpZXINCi0tLS0tLS0tDQpPbmUgSGFuZGVkIFN3b3JkDQpQaHlzaWNhbCBEYW1hZ2U6IDMxLTcyDQpDcml0aWNhbCBTdHJpa2UgQ2hhbmNlOiA1LjcwJQ0KQXR0YWNrcyBwZXIgU2Vjb25kOiAxLjQwDQpXZWFwb24gUmFuZ2U6IDEuNCBtZXRyZXMNCi0tLS0tLS0tDQpSZXF1aXJlbWVudHM6DQpMZXZlbDogNzANCkRleDogMjEyDQotLS0tLS0tLQ0KU29ja2V0czogUi1SLVIgDQotLS0tLS0tLQ0KSXRlbSBMZXZlbDogODMNCi0tLS0tLS0tDQorMzUlIHRvIEdsb2JhbCBDcml0aWNhbCBTdHJpa2UgTXVsdGlwbGllciAoaW1wbGljaXQpDQotLS0tLS0tLQ0KKzEgdG8gTGV2ZWwgb2YgU29ja2V0ZWQgR2Vtcw0KOTMlIGluY3JlYXNlZCBDcml0aWNhbCBTdHJpa2UgQ2hhbmNlIGZvciBTcGVsbHMNCiszMyUgdG8gR2xvYmFsIENyaXRpY2FsIFN0cmlrZSBNdWx0aXBsaWVyDQpHYWluIDIwJSBvZiBQaHlzaWNhbCBEYW1hZ2UgYXMgRXh0cmEgQ29sZCBEYW1hZ2UNCkRhbWFnZSBQZW5ldHJhdGVzIDYlIEVsZW1lbnRhbCBSZXNpc3RhbmNlcw0KMTUlIGluY3JlYXNlZCBUcmFwIFRocm93aW5nIFNwZWVkIChjcmFmdGVkKQ0KLS0tLS0tLS0NClNoYXBlciBJdGVtDQo="
+                }
+            }
+        }
+    ]
+}

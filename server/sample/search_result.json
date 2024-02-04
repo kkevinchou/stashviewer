@@ -1,0 +1,3486 @@
+{
+    "result": [
+        {
+            "id": "b49521493afde1a568e8cfbc774c4ab8fea53fd23314bd89319012d9411ff368",
+            "listing": {
+                "method": "psapi",
+                "indexed": "2024-01-31T14:22:08Z",
+                "stash": {
+                    "name": "~b/o 1 divine",
+                    "x": 10,
+                    "y": 8
+                },
+                "whisper": "@slocsPF Hi, I would like to buy your Pandemonium Horn Blizzard Crown listed for 20 divine in Affliction (stash tab \"~b/o 1 divine\"; position: left 11, top 9)",
+                "whisper_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIyNzc0ZmY3NDNjMzJkMTk3NGNlZjNjZGQ3MzE3N2E0YiIsImlzcyI6Iks5NE92Z0VINSIsImF1ZCI6IjViZjNmNjQ5LWNlMTktNGFjYy1hZDk2LThiZjhmMTM2NWI3MSIsImRzdCI6InNsb2NzUEYiLCJsb2MiOiJlbl9VUyIsInRvayI6Iml0ZW0iLCJzdWIiOiJiNDk1MjE0OTNhZmRlMWE1NjhlOGNmYmM3NzRjNGFiOGZlYTUzZmQyMzMxNGJkODkzMTkwMTJkOTQxMWZmMzY4IiwiZGF0IjoiMDNhY2VlNDFhYjI0NjI1MTA2YmI2OWMwMDI1NDcxOGQiLCJpYXQiOjE3MDY4NjUzMDEsImV4cCI6MTcwNjg2NTYwMX0.DNjHhfM_-cEqgjWEdh0jNU17WzMBwagBAzbTcyj6C4Q",
+                "account": {
+                    "name": "slocs",
+                    "online": {
+                        "league": "Affliction"
+                    },
+                    "lastCharacterName": "slocsPF",
+                    "language": "en_US",
+                    "realm": "pc"
+                },
+                "price": {
+                    "type": "~b/o",
+                    "amount": 20,
+                    "currency": "divine"
+                }
+            },
+            "item": {
+                "verified": true,
+                "w": 2,
+                "h": 2,
+                "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9IZWxtZXRzL0hlbG1ldERleEludFIiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/9da7af13c1/HelmetDexIntR.png",
+                "league": "Affliction",
+                "id": "b49521493afde1a568e8cfbc774c4ab8fea53fd23314bd89319012d9411ff368",
+                "influences": {
+                    "warlord": true
+                },
+                "sockets": [
+                    {
+                        "group": 0,
+                        "attr": "D",
+                        "sColour": "G"
+                    },
+                    {
+                        "group": 0,
+                        "attr": "D",
+                        "sColour": "G"
+                    }
+                ],
+                "name": "Pandemonium Horn",
+                "typeLine": "Blizzard Crown",
+                "baseType": "Blizzard Crown",
+                "rarity": "Rare",
+                "ilvl": 83,
+                "identified": true,
+                "note": "~b/o 20 divine",
+                "properties": [
+                    {
+                        "name": "Quality",
+                        "values": [
+                            [
+                                "+29%",
+                                1
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 6
+                    },
+                    {
+                        "name": "Evasion Rating",
+                        "values": [
+                            [
+                                "398",
+                                1
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 17
+                    },
+                    {
+                        "name": "Energy Shield",
+                        "values": [
+                            [
+                                "89",
+                                1
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 18
+                    }
+                ],
+                "requirements": [
+                    {
+                        "name": "Level",
+                        "values": [
+                            [
+                                "75",
+                                0
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 62
+                    },
+                    {
+                        "name": "Dex",
+                        "values": [
+                            [
+                                "79",
+                                0
+                            ]
+                        ],
+                        "displayMode": 1,
+                        "type": 64
+                    },
+                    {
+                        "name": "Int",
+                        "values": [
+                            [
+                                "79",
+                                0
+                            ]
+                        ],
+                        "displayMode": 1,
+                        "type": 65
+                    }
+                ],
+                "implicitMods": [
+                    "Adds 78 to 121 Cold Damage",
+                    "Your Hits treat Cold Resistance as 10% higher than actual value"
+                ],
+                "explicitMods": [
+                    "+19% to Global Critical Strike Multiplier",
+                    "+13 to Evasion Rating",
+                    "68% increased Evasion and Energy Shield",
+                    "+6 to maximum Energy Shield",
+                    "25% increased Energy Shield Recharge Rate",
+                    "1% increased Critical Strike Chance per 10 Strength",
+                    "Gain Accuracy Rating equal to your Strength"
+                ],
+                "craftedMods": [
+                    "+61 to maximum Life"
+                ],
+                "frameType": 2,
+                "extended": {
+                    "base_defence_percentile": 17,
+                    "ev": 398,
+                    "es": 89,
+                    "mods": {
+                        "explicit": [
+                            {
+                                "name": "of the Elevated Conquest",
+                                "tier": "S0",
+                                "level": 85,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_2511370818",
+                                        "min": 1,
+                                        "max": 1
+                                    },
+                                    {
+                                        "hash": "explicit.stat_1575519214",
+                                        "min": 1,
+                                        "max": 1
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "of the Conquest",
+                                "tier": "S1",
+                                "level": 75,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_3556824919",
+                                        "min": 17,
+                                        "max": 20
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "of Allaying",
+                                "tier": "S5",
+                                "level": 46,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_2339757871",
+                                        "min": 24,
+                                        "max": 26
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Evanescent",
+                                "tier": "P3",
+                                "level": 60,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_1999113824",
+                                        "min": 68,
+                                        "max": 79
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Nymph's",
+                                "tier": "P4",
+                                "level": 18,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_53045048",
+                                        "min": 10,
+                                        "max": 27
+                                    },
+                                    {
+                                        "hash": "explicit.stat_4052037485",
+                                        "min": 5,
+                                        "max": 12
+                                    }
+                                ]
+                            }
+                        ],
+                        "implicit": [
+                            {
+                                "name": "",
+                                "tier": "",
+                                "level": 75,
+                                "magnitudes": [
+                                    {
+                                        "hash": "implicit.stat_2387423236",
+                                        "min": 75,
+                                        "max": 85
+                                    },
+                                    {
+                                        "hash": "implicit.stat_2387423236",
+                                        "min": 115,
+                                        "max": 128
+                                    },
+                                    {
+                                        "hash": "implicit.stat_3417711605",
+                                        "min": -10,
+                                        "max": -10
+                                    }
+                                ]
+                            }
+                        ],
+                        "crafted": [
+                            {
+                                "name": "Upgraded",
+                                "tier": "R4",
+                                "level": 75,
+                                "magnitudes": [
+                                    {
+                                        "hash": "crafted.stat_3299347043",
+                                        "min": 56,
+                                        "max": 70
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "hashes": {
+                        "explicit": [
+                            [
+                                "explicit.stat_3556824919",
+                                [
+                                    1
+                                ]
+                            ],
+                            [
+                                "explicit.stat_53045048",
+                                [
+                                    4
+                                ]
+                            ],
+                            [
+                                "explicit.stat_1999113824",
+                                [
+                                    3
+                                ]
+                            ],
+                            [
+                                "explicit.stat_4052037485",
+                                [
+                                    4
+                                ]
+                            ],
+                            [
+                                "explicit.stat_2339757871",
+                                [
+                                    2
+                                ]
+                            ],
+                            [
+                                "explicit.stat_2511370818",
+                                [
+                                    0
+                                ]
+                            ],
+                            [
+                                "explicit.stat_1575519214",
+                                [
+                                    0
+                                ]
+                            ]
+                        ],
+                        "implicit": [
+                            [
+                                "implicit.stat_2387423236",
+                                [
+                                    0
+                                ]
+                            ],
+                            [
+                                "implicit.stat_3417711605",
+                                [
+                                    0
+                                ]
+                            ]
+                        ],
+                        "crafted": [
+                            [
+                                "crafted.stat_3299347043",
+                                [
+                                    0
+                                ]
+                            ]
+                        ],
+                        "pseudo": [
+                            [
+                                "pseudo.pseudo_global_critical_strike_multiplier",
+                                null
+                            ]
+                        ]
+                    },
+                    "text": "SXRlbSBDbGFzczogSGVsbWV0cw0KUmFyaXR5OiBSYXJlDQpQYW5kZW1vbml1bSBIb3JuDQpCbGl6emFyZCBDcm93bg0KLS0tLS0tLS0NClF1YWxpdHk6ICsyOSUgKGF1Z21lbnRlZCkNCkV2YXNpb24gUmF0aW5nOiAzOTggKGF1Z21lbnRlZCkNCkVuZXJneSBTaGllbGQ6IDg5IChhdWdtZW50ZWQpDQotLS0tLS0tLQ0KUmVxdWlyZW1lbnRzOg0KTGV2ZWw6IDc1DQpEZXg6IDc5DQpJbnQ6IDc5DQotLS0tLS0tLQ0KU29ja2V0czogRy1HIA0KLS0tLS0tLS0NCkl0ZW0gTGV2ZWw6IDgzDQotLS0tLS0tLQ0KQWRkcyA3OCB0byAxMjEgQ29sZCBEYW1hZ2UgKGltcGxpY2l0KQ0KWW91ciBIaXRzIHRyZWF0IENvbGQgUmVzaXN0YW5jZSBhcyAxMCUgaGlnaGVyIHRoYW4gYWN0dWFsIHZhbHVlIChpbXBsaWNpdCkNCi0tLS0tLS0tDQorMTklIHRvIEdsb2JhbCBDcml0aWNhbCBTdHJpa2UgTXVsdGlwbGllcg0KKzEzIHRvIEV2YXNpb24gUmF0aW5nDQo2OCUgaW5jcmVhc2VkIEV2YXNpb24gYW5kIEVuZXJneSBTaGllbGQNCis2IHRvIG1heGltdW0gRW5lcmd5IFNoaWVsZA0KMjUlIGluY3JlYXNlZCBFbmVyZ3kgU2hpZWxkIFJlY2hhcmdlIFJhdGUNCjElIGluY3JlYXNlZCBDcml0aWNhbCBTdHJpa2UgQ2hhbmNlIHBlciAxMCBTdHJlbmd0aA0KR2FpbiBBY2N1cmFjeSBSYXRpbmcgZXF1YWwgdG8geW91ciBTdHJlbmd0aA0KKzYxIHRvIG1heGltdW0gTGlmZSAoY3JhZnRlZCkNCi0tLS0tLS0tDQpXYXJsb3JkIEl0ZW0NCi0tLS0tLS0tDQpOb3RlOiB+Yi9vIDIwIGRpdmluZQ0K"
+                },
+                "pseudoMods": [
+                    "+19% Global Critical Strike Multiplier"
+                ]
+            }
+        },
+        {
+            "id": "fd76ad664f5bbf394ff1b1d423ad8b7c20fb3a842cfbf78472f5964ab7be6c73",
+            "listing": {
+                "method": "psapi",
+                "indexed": "2024-01-31T08:54:56Z",
+                "stash": {
+                    "name": "w sell4",
+                    "x": 5,
+                    "y": 2
+                },
+                "whisper": "@RoudinDD Hi, I would like to buy your Blight Cowl Blizzard Crown listed for 45 divine in Affliction (stash tab \"w sell4\"; position: left 6, top 3)",
+                "whisper_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIyNzc0ZmY3NDNjMzJkMTk3NGNlZjNjZGQ3MzE3N2E0YiIsImlzcyI6Iks5NE92Z0VINSIsImF1ZCI6IjViZjNmNjQ5LWNlMTktNGFjYy1hZDk2LThiZjhmMTM2NWI3MSIsImRzdCI6IlJvdWRpbkREIiwibG9jIjoiZW5fVVMiLCJ0b2siOiJpdGVtIiwic3ViIjoiZmQ3NmFkNjY0ZjViYmYzOTRmZjFiMWQ0MjNhZDhiN2MyMGZiM2E4NDJjZmJmNzg0NzJmNTk2NGFiN2JlNmM3MyIsImRhdCI6IjM2MTFlNWE0NjMyNmY4MTg3OWM5ZDc0NTYwYjNkMjBmIiwiaWF0IjoxNzA2ODY1MzAxLCJleHAiOjE3MDY4NjU2MDF9.vvaflp4lb1SZH4b_JOkqBy80ndDI0Juh_9sOb9dPrAQ",
+                "account": {
+                    "name": "Roudin",
+                    "online": {
+                        "league": "Affliction"
+                    },
+                    "lastCharacterName": "RoudinDD",
+                    "language": "en_US",
+                    "realm": "pc"
+                },
+                "price": {
+                    "type": "~b/o",
+                    "amount": 45,
+                    "currency": "divine"
+                }
+            },
+            "item": {
+                "verified": true,
+                "w": 2,
+                "h": 2,
+                "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9IZWxtZXRzL0hlbG1ldERleEludFIiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/9da7af13c1/HelmetDexIntR.png",
+                "league": "Affliction",
+                "id": "fd76ad664f5bbf394ff1b1d423ad8b7c20fb3a842cfbf78472f5964ab7be6c73",
+                "influences": {
+                    "warlord": true
+                },
+                "sockets": [
+                    {
+                        "group": 0,
+                        "attr": "S",
+                        "sColour": "R"
+                    },
+                    {
+                        "group": 0,
+                        "attr": "S",
+                        "sColour": "R"
+                    },
+                    {
+                        "group": 0,
+                        "attr": "I",
+                        "sColour": "B"
+                    },
+                    {
+                        "group": 1,
+                        "attr": "D",
+                        "sColour": "G"
+                    }
+                ],
+                "name": "Blight Cowl",
+                "typeLine": "Blizzard Crown",
+                "baseType": "Blizzard Crown",
+                "rarity": "Rare",
+                "ilvl": 83,
+                "identified": true,
+                "note": "~b/o 45 divine",
+                "properties": [
+                    {
+                        "name": "Quality",
+                        "values": [
+                            [
+                                "+20%",
+                                1
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 6
+                    },
+                    {
+                        "name": "Evasion Rating",
+                        "values": [
+                            [
+                                "255",
+                                1
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 17
+                    },
+                    {
+                        "name": "Energy Shield",
+                        "values": [
+                            [
+                                "52",
+                                1
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 18
+                    }
+                ],
+                "requirements": [
+                    {
+                        "name": "Level",
+                        "values": [
+                            [
+                                "75",
+                                0
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 62
+                    },
+                    {
+                        "name": "Dex",
+                        "values": [
+                            [
+                                "79",
+                                0
+                            ]
+                        ],
+                        "displayMode": 1,
+                        "type": 64
+                    },
+                    {
+                        "name": "Int",
+                        "values": [
+                            [
+                                "79",
+                                0
+                            ]
+                        ],
+                        "displayMode": 1,
+                        "type": 65
+                    }
+                ],
+                "implicitMods": [
+                    "Adds 85 to 128 Cold Damage",
+                    "Your Hits treat Cold Resistance as 10% higher than actual value"
+                ],
+                "explicitMods": [
+                    "+54 to Strength",
+                    "+15% to Global Critical Strike Multiplier",
+                    "14% increased Evasion and Energy Shield",
+                    "+34 to maximum Mana",
+                    "8% increased Stun and Block Recovery",
+                    "1% increased Critical Strike Chance per 10 Strength",
+                    "Gain Accuracy Rating equal to your Strength"
+                ],
+                "craftedMods": [
+                    "+1 to Level of Socketed AoE Gems",
+                    "8% increased Area of Effect"
+                ],
+                "frameType": 2,
+                "extended": {
+                    "base_defence_percentile": 19,
+                    "ev": 255,
+                    "es": 52,
+                    "mods": {
+                        "explicit": [
+                            {
+                                "name": "of the Essence",
+                                "tier": "S0",
+                                "level": 82,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_4080418644",
+                                        "min": 51,
+                                        "max": 58
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "of the Elevated Conquest",
+                                "tier": "S0",
+                                "level": 85,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_2511370818",
+                                        "min": 1,
+                                        "max": 1
+                                    },
+                                    {
+                                        "hash": "explicit.stat_1575519214",
+                                        "min": 1,
+                                        "max": 1
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "of the Conquest",
+                                "tier": "S2",
+                                "level": 70,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_3556824919",
+                                        "min": 14,
+                                        "max": 16
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Moth's",
+                                "tier": "P5",
+                                "level": 19,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_1999113824",
+                                        "min": 14,
+                                        "max": 20
+                                    },
+                                    {
+                                        "hash": "explicit.stat_2511217560",
+                                        "min": 8,
+                                        "max": 9
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Sapphire",
+                                "tier": "P9",
+                                "level": 23,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_1050105434",
+                                        "min": 30,
+                                        "max": 34
+                                    }
+                                ]
+                            }
+                        ],
+                        "implicit": [
+                            {
+                                "name": "",
+                                "tier": "",
+                                "level": 75,
+                                "magnitudes": [
+                                    {
+                                        "hash": "implicit.stat_2387423236",
+                                        "min": 75,
+                                        "max": 85
+                                    },
+                                    {
+                                        "hash": "implicit.stat_2387423236",
+                                        "min": 115,
+                                        "max": 128
+                                    },
+                                    {
+                                        "hash": "implicit.stat_3417711605",
+                                        "min": -10,
+                                        "max": -10
+                                    }
+                                ]
+                            }
+                        ],
+                        "crafted": [
+                            {
+                                "name": "Chosen",
+                                "tier": "P0",
+                                "level": 60,
+                                "magnitudes": [
+                                    {
+                                        "hash": "crafted.stat_2551600084",
+                                        "min": 1,
+                                        "max": 1
+                                    },
+                                    {
+                                        "hash": "crafted.stat_280731498",
+                                        "min": 8,
+                                        "max": 10
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "hashes": {
+                        "explicit": [
+                            [
+                                "explicit.stat_4080418644",
+                                [
+                                    0
+                                ]
+                            ],
+                            [
+                                "explicit.stat_3556824919",
+                                [
+                                    2
+                                ]
+                            ],
+                            [
+                                "explicit.stat_1999113824",
+                                [
+                                    3
+                                ]
+                            ],
+                            [
+                                "explicit.stat_1050105434",
+                                [
+                                    4
+                                ]
+                            ],
+                            [
+                                "explicit.stat_2511217560",
+                                [
+                                    3
+                                ]
+                            ],
+                            [
+                                "explicit.stat_2511370818",
+                                [
+                                    1
+                                ]
+                            ],
+                            [
+                                "explicit.stat_1575519214",
+                                [
+                                    1
+                                ]
+                            ]
+                        ],
+                        "implicit": [
+                            [
+                                "implicit.stat_2387423236",
+                                [
+                                    0
+                                ]
+                            ],
+                            [
+                                "implicit.stat_3417711605",
+                                [
+                                    0
+                                ]
+                            ]
+                        ],
+                        "crafted": [
+                            [
+                                "crafted.stat_2551600084",
+                                [
+                                    0
+                                ]
+                            ],
+                            [
+                                "crafted.stat_280731498",
+                                [
+                                    0
+                                ]
+                            ]
+                        ],
+                        "pseudo": [
+                            [
+                                "pseudo.pseudo_global_critical_strike_multiplier",
+                                null
+                            ]
+                        ]
+                    },
+                    "text": "SXRlbSBDbGFzczogSGVsbWV0cw0KUmFyaXR5OiBSYXJlDQpCbGlnaHQgQ293bA0KQmxpenphcmQgQ3Jvd24NCi0tLS0tLS0tDQpRdWFsaXR5OiArMjAlIChhdWdtZW50ZWQpDQpFdmFzaW9uIFJhdGluZzogMjU1IChhdWdtZW50ZWQpDQpFbmVyZ3kgU2hpZWxkOiA1MiAoYXVnbWVudGVkKQ0KLS0tLS0tLS0NClJlcXVpcmVtZW50czoNCkxldmVsOiA3NQ0KRGV4OiA3OQ0KSW50OiA3OQ0KLS0tLS0tLS0NClNvY2tldHM6IFItUi1CIEcgDQotLS0tLS0tLQ0KSXRlbSBMZXZlbDogODMNCi0tLS0tLS0tDQpBZGRzIDg1IHRvIDEyOCBDb2xkIERhbWFnZSAoaW1wbGljaXQpDQpZb3VyIEhpdHMgdHJlYXQgQ29sZCBSZXNpc3RhbmNlIGFzIDEwJSBoaWdoZXIgdGhhbiBhY3R1YWwgdmFsdWUgKGltcGxpY2l0KQ0KLS0tLS0tLS0NCis1NCB0byBTdHJlbmd0aA0KKzE1JSB0byBHbG9iYWwgQ3JpdGljYWwgU3RyaWtlIE11bHRpcGxpZXINCjE0JSBpbmNyZWFzZWQgRXZhc2lvbiBhbmQgRW5lcmd5IFNoaWVsZA0KKzM0IHRvIG1heGltdW0gTWFuYQ0KOCUgaW5jcmVhc2VkIFN0dW4gYW5kIEJsb2NrIFJlY292ZXJ5DQoxJSBpbmNyZWFzZWQgQ3JpdGljYWwgU3RyaWtlIENoYW5jZSBwZXIgMTAgU3RyZW5ndGgNCkdhaW4gQWNjdXJhY3kgUmF0aW5nIGVxdWFsIHRvIHlvdXIgU3RyZW5ndGgNCisxIHRvIExldmVsIG9mIFNvY2tldGVkIEFvRSBHZW1zIChjcmFmdGVkKQ0KOCUgaW5jcmVhc2VkIEFyZWEgb2YgRWZmZWN0IChjcmFmdGVkKQ0KLS0tLS0tLS0NCldhcmxvcmQgSXRlbQ0KLS0tLS0tLS0NCk5vdGU6IH5iL28gNDUgZGl2aW5lDQo="
+                },
+                "pseudoMods": [
+                    "+15% Global Critical Strike Multiplier"
+                ]
+            }
+        },
+        {
+            "id": "5ed0367bc06b1e9c9bc30c175467bec9254edea6f48227103aaeb6032306995d",
+            "listing": {
+                "method": "psapi",
+                "indexed": "2024-02-02T08:29:32Z",
+                "stash": {
+                    "name": "거래",
+                    "x": 2,
+                    "y": 0
+                },
+                "whisper": "@qffaf 안녕하세요, 50 divine(으)로 올려놓은 Affliction 리그의 해골 이마 눈보라 왕관(을)를 구매하고 싶습니다 (보관함 탭 \"거래\", 위치: 왼쪽 3, 상단 1)",
+                "whisper_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIyNzc0ZmY3NDNjMzJkMTk3NGNlZjNjZGQ3MzE3N2E0YiIsImlzcyI6Iks5NE92Z0VINSIsImF1ZCI6IjViZjNmNjQ5LWNlMTktNGFjYy1hZDk2LThiZjhmMTM2NWI3MSIsImRzdCI6InFmZmFmIiwibG9jIjoia29fS1IiLCJ0b2siOiJpdGVtIiwic3ViIjoiNWVkMDM2N2JjMDZiMWU5YzliYzMwYzE3NTQ2N2JlYzkyNTRlZGVhNmY0ODIyNzEwM2FhZWI2MDMyMzA2OTk1ZCIsImRhdCI6IjZmYTcxZWIyZDNiMTEwYmVlNTQxNjgxN2JjZjQxZWZjIiwiaWF0IjoxNzA2ODY1MzAxLCJleHAiOjE3MDY4NjU2MDF9.gN4coJLXFFPtJq0zV5CAwunGa-jWn16HAWOIVIL0Lzk",
+                "account": {
+                    "name": "Nasego",
+                    "online": {
+                        "league": "Affliction",
+                        "status": "afk"
+                    },
+                    "lastCharacterName": "qffaf",
+                    "language": "ko_KR",
+                    "realm": "pc"
+                },
+                "price": {
+                    "type": "~price",
+                    "amount": 50,
+                    "currency": "divine"
+                }
+            },
+            "item": {
+                "verified": true,
+                "w": 2,
+                "h": 2,
+                "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9IZWxtZXRzL0hlbG1ldERleEludFIiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/9da7af13c1/HelmetDexIntR.png",
+                "league": "Affliction",
+                "id": "5ed0367bc06b1e9c9bc30c175467bec9254edea6f48227103aaeb6032306995d",
+                "influences": {
+                    "warlord": true
+                },
+                "sockets": [
+                    {
+                        "group": 0,
+                        "attr": "D",
+                        "sColour": "G"
+                    },
+                    {
+                        "group": 0,
+                        "attr": "I",
+                        "sColour": "B"
+                    }
+                ],
+                "name": "Skull Brow",
+                "typeLine": "Blizzard Crown",
+                "baseType": "Blizzard Crown",
+                "rarity": "Rare",
+                "ilvl": 83,
+                "identified": true,
+                "note": "~price 50 divine",
+                "properties": [
+                    {
+                        "name": "Evasion Rating",
+                        "values": [
+                            [
+                                "218",
+                                1
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 17
+                    },
+                    {
+                        "name": "Energy Shield",
+                        "values": [
+                            [
+                                "46",
+                                1
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 18
+                    }
+                ],
+                "requirements": [
+                    {
+                        "name": "Level",
+                        "values": [
+                            [
+                                "75",
+                                0
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 62
+                    },
+                    {
+                        "name": "Dex",
+                        "values": [
+                            [
+                                "79",
+                                0
+                            ]
+                        ],
+                        "displayMode": 1,
+                        "type": 64
+                    },
+                    {
+                        "name": "Int",
+                        "values": [
+                            [
+                                "79",
+                                0
+                            ]
+                        ],
+                        "displayMode": 1,
+                        "type": 65
+                    }
+                ],
+                "implicitMods": [
+                    "Adds 77 to 122 Cold Damage",
+                    "Your Hits treat Cold Resistance as 10% higher than actual value"
+                ],
+                "explicitMods": [
+                    "+52 to Strength",
+                    "+13% to Global Critical Strike Multiplier",
+                    "+6 to Evasion Rating",
+                    "+3 to maximum Energy Shield",
+                    "6% of Physical Damage from Hits taken as Fire Damage",
+                    "1% increased Critical Strike Chance per 10 Strength",
+                    "Gain Accuracy Rating equal to your Strength"
+                ],
+                "craftedMods": [
+                    "+67 to maximum Life"
+                ],
+                "frameType": 2,
+                "extended": {
+                    "base_defence_percentile": 100,
+                    "ev": 262,
+                    "ev_aug": true,
+                    "es": 55,
+                    "es_aug": true,
+                    "mods": {
+                        "explicit": [
+                            {
+                                "name": "of the Essence",
+                                "tier": "S0",
+                                "level": 82,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_4080418644",
+                                        "min": 51,
+                                        "max": 58
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "of the Elevated Conquest",
+                                "tier": "S0",
+                                "level": 85,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_2511370818",
+                                        "min": 1,
+                                        "max": 1
+                                    },
+                                    {
+                                        "hash": "explicit.stat_1575519214",
+                                        "min": 1,
+                                        "max": 1
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "of the Conquest",
+                                "tier": "S3",
+                                "level": 68,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_3556824919",
+                                        "min": 11,
+                                        "max": 13
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Warlord's",
+                                "tier": "P2",
+                                "level": 68,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_3342989455",
+                                        "min": 4,
+                                        "max": 6
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Will-o-wisp's",
+                                "tier": "P5",
+                                "level": 1,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_53045048",
+                                        "min": 5,
+                                        "max": 9
+                                    },
+                                    {
+                                        "hash": "explicit.stat_4052037485",
+                                        "min": 3,
+                                        "max": 4
+                                    }
+                                ]
+                            }
+                        ],
+                        "implicit": [
+                            {
+                                "name": "",
+                                "tier": "",
+                                "level": 75,
+                                "magnitudes": [
+                                    {
+                                        "hash": "implicit.stat_2387423236",
+                                        "min": 75,
+                                        "max": 85
+                                    },
+                                    {
+                                        "hash": "implicit.stat_2387423236",
+                                        "min": 115,
+                                        "max": 128
+                                    },
+                                    {
+                                        "hash": "implicit.stat_3417711605",
+                                        "min": -10,
+                                        "max": -10
+                                    }
+                                ]
+                            }
+                        ],
+                        "crafted": [
+                            {
+                                "name": "Upgraded",
+                                "tier": "R4",
+                                "level": 75,
+                                "magnitudes": [
+                                    {
+                                        "hash": "crafted.stat_3299347043",
+                                        "min": 56,
+                                        "max": 70
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "hashes": {
+                        "explicit": [
+                            [
+                                "explicit.stat_4080418644",
+                                [
+                                    0
+                                ]
+                            ],
+                            [
+                                "explicit.stat_3556824919",
+                                [
+                                    2
+                                ]
+                            ],
+                            [
+                                "explicit.stat_53045048",
+                                [
+                                    4
+                                ]
+                            ],
+                            [
+                                "explicit.stat_4052037485",
+                                [
+                                    4
+                                ]
+                            ],
+                            [
+                                "explicit.stat_3342989455",
+                                [
+                                    3
+                                ]
+                            ],
+                            [
+                                "explicit.stat_2511370818",
+                                [
+                                    1
+                                ]
+                            ],
+                            [
+                                "explicit.stat_1575519214",
+                                [
+                                    1
+                                ]
+                            ]
+                        ],
+                        "implicit": [
+                            [
+                                "implicit.stat_2387423236",
+                                [
+                                    0
+                                ]
+                            ],
+                            [
+                                "implicit.stat_3417711605",
+                                [
+                                    0
+                                ]
+                            ]
+                        ],
+                        "crafted": [
+                            [
+                                "crafted.stat_3299347043",
+                                [
+                                    0
+                                ]
+                            ]
+                        ],
+                        "pseudo": [
+                            [
+                                "pseudo.pseudo_global_critical_strike_multiplier",
+                                null
+                            ]
+                        ]
+                    },
+                    "text": "SXRlbSBDbGFzczogSGVsbWV0cw0KUmFyaXR5OiBSYXJlDQpTa3VsbCBCcm93DQpCbGl6emFyZCBDcm93bg0KLS0tLS0tLS0NCkV2YXNpb24gUmF0aW5nOiAyMTggKGF1Z21lbnRlZCkNCkVuZXJneSBTaGllbGQ6IDQ2IChhdWdtZW50ZWQpDQotLS0tLS0tLQ0KUmVxdWlyZW1lbnRzOg0KTGV2ZWw6IDc1DQpEZXg6IDc5DQpJbnQ6IDc5DQotLS0tLS0tLQ0KU29ja2V0czogRy1CIA0KLS0tLS0tLS0NCkl0ZW0gTGV2ZWw6IDgzDQotLS0tLS0tLQ0KQWRkcyA3NyB0byAxMjIgQ29sZCBEYW1hZ2UgKGltcGxpY2l0KQ0KWW91ciBIaXRzIHRyZWF0IENvbGQgUmVzaXN0YW5jZSBhcyAxMCUgaGlnaGVyIHRoYW4gYWN0dWFsIHZhbHVlIChpbXBsaWNpdCkNCi0tLS0tLS0tDQorNTIgdG8gU3RyZW5ndGgNCisxMyUgdG8gR2xvYmFsIENyaXRpY2FsIFN0cmlrZSBNdWx0aXBsaWVyDQorNiB0byBFdmFzaW9uIFJhdGluZw0KKzMgdG8gbWF4aW11bSBFbmVyZ3kgU2hpZWxkDQo2JSBvZiBQaHlzaWNhbCBEYW1hZ2UgZnJvbSBIaXRzIHRha2VuIGFzIEZpcmUgRGFtYWdlDQoxJSBpbmNyZWFzZWQgQ3JpdGljYWwgU3RyaWtlIENoYW5jZSBwZXIgMTAgU3RyZW5ndGgNCkdhaW4gQWNjdXJhY3kgUmF0aW5nIGVxdWFsIHRvIHlvdXIgU3RyZW5ndGgNCis2NyB0byBtYXhpbXVtIExpZmUgKGNyYWZ0ZWQpDQotLS0tLS0tLQ0KV2FybG9yZCBJdGVtDQotLS0tLS0tLQ0KTm90ZTogfnByaWNlIDUwIGRpdmluZQ0K"
+                },
+                "pseudoMods": [
+                    "+13% Global Critical Strike Multiplier"
+                ]
+            }
+        },
+        {
+            "id": "a6738f7253972d12efc13e6c469ab8e71638d0bd431c85652e44c62c2ba10258",
+            "listing": {
+                "method": "psapi",
+                "indexed": "2024-02-02T07:15:05Z",
+                "stash": {
+                    "name": "TRADE",
+                    "x": 6,
+                    "y": 10
+                },
+                "whisper": "@Sikereze Hi, I would like to buy your Agony Horn Blizzard Crown listed for 50 divine in Affliction (stash tab \"TRADE\"; position: left 7, top 11)",
+                "whisper_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIyNzc0ZmY3NDNjMzJkMTk3NGNlZjNjZGQ3MzE3N2E0YiIsImlzcyI6Iks5NE92Z0VINSIsImF1ZCI6IjViZjNmNjQ5LWNlMTktNGFjYy1hZDk2LThiZjhmMTM2NWI3MSIsImRzdCI6IlNpa2VyZXplIiwibG9jIjoiZW5fVVMiLCJ0b2siOiJpdGVtIiwic3ViIjoiYTY3MzhmNzI1Mzk3MmQxMmVmYzEzZTZjNDY5YWI4ZTcxNjM4ZDBiZDQzMWM4NTY1MmU0NGM2MmMyYmExMDI1OCIsImRhdCI6ImMwNGFjMjBlNTBkNzUzMDM0OTg1OGY2OWQwYWY3MTVhIiwiaWF0IjoxNzA2ODY1MzAxLCJleHAiOjE3MDY4NjU2MDF9.xViPrtIH0DbKLC4GXq4iVPJG7fXpcTLv2sSJ6kKXnbI",
+                "account": {
+                    "name": "Enescyavuz",
+                    "online": {
+                        "league": "Affliction"
+                    },
+                    "lastCharacterName": "Sikereze",
+                    "language": "en_US",
+                    "realm": "pc"
+                },
+                "price": {
+                    "type": "~price",
+                    "amount": 50,
+                    "currency": "divine"
+                }
+            },
+            "item": {
+                "verified": true,
+                "w": 2,
+                "h": 2,
+                "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9IZWxtZXRzL0hlbG1ldERleEludFIiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/9da7af13c1/HelmetDexIntR.png",
+                "league": "Affliction",
+                "id": "a6738f7253972d12efc13e6c469ab8e71638d0bd431c85652e44c62c2ba10258",
+                "influences": {
+                    "warlord": true
+                },
+                "sockets": [
+                    {
+                        "group": 0,
+                        "attr": "S",
+                        "sColour": "R"
+                    },
+                    {
+                        "group": 0,
+                        "attr": "S",
+                        "sColour": "R"
+                    },
+                    {
+                        "group": 0,
+                        "attr": "S",
+                        "sColour": "R"
+                    },
+                    {
+                        "group": 0,
+                        "attr": "D",
+                        "sColour": "G"
+                    }
+                ],
+                "name": "Agony Horn",
+                "typeLine": "Blizzard Crown",
+                "baseType": "Blizzard Crown",
+                "rarity": "Rare",
+                "ilvl": 83,
+                "identified": true,
+                "note": "~price 50 divine",
+                "properties": [
+                    {
+                        "name": "Quality",
+                        "values": [
+                            [
+                                "+20%",
+                                1
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 6
+                    },
+                    {
+                        "name": "Evasion Rating",
+                        "values": [
+                            [
+                                "226",
+                                1
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 17
+                    },
+                    {
+                        "name": "Energy Shield",
+                        "values": [
+                            [
+                                "46",
+                                1
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 18
+                    }
+                ],
+                "requirements": [
+                    {
+                        "name": "Level",
+                        "values": [
+                            [
+                                "75",
+                                0
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 62
+                    },
+                    {
+                        "name": "Dex",
+                        "values": [
+                            [
+                                "79",
+                                0
+                            ]
+                        ],
+                        "displayMode": 1,
+                        "type": 64
+                    },
+                    {
+                        "name": "Int",
+                        "values": [
+                            [
+                                "79",
+                                0
+                            ]
+                        ],
+                        "displayMode": 1,
+                        "type": 65
+                    }
+                ],
+                "implicitMods": [
+                    "Adds 80 to 123 Cold Damage",
+                    "Your Hits treat Cold Resistance as 10% higher than actual value"
+                ],
+                "explicitMods": [
+                    "+54 to Strength",
+                    "+16% to Global Critical Strike Multiplier",
+                    "8% of Physical Damage from Hits taken as Fire Damage",
+                    "1% increased Critical Strike Chance per 10 Strength",
+                    "Gain Accuracy Rating equal to your Strength"
+                ],
+                "craftedMods": [
+                    "+67 to maximum Life"
+                ],
+                "frameType": 2,
+                "extended": {
+                    "base_defence_percentile": 6,
+                    "ev": 226,
+                    "es": 46,
+                    "mods": {
+                        "explicit": [
+                            {
+                                "name": "of the Essence",
+                                "tier": "S0",
+                                "level": 82,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_4080418644",
+                                        "min": 51,
+                                        "max": 58
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "of the Elevated Conquest",
+                                "tier": "S0",
+                                "level": 85,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_2511370818",
+                                        "min": 1,
+                                        "max": 1
+                                    },
+                                    {
+                                        "hash": "explicit.stat_1575519214",
+                                        "min": 1,
+                                        "max": 1
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "of the Conquest",
+                                "tier": "S2",
+                                "level": 70,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_3556824919",
+                                        "min": 14,
+                                        "max": 16
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Warlord's",
+                                "tier": "P1",
+                                "level": 83,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_3342989455",
+                                        "min": 7,
+                                        "max": 10
+                                    }
+                                ]
+                            }
+                        ],
+                        "implicit": [
+                            {
+                                "name": "",
+                                "tier": "",
+                                "level": 75,
+                                "magnitudes": [
+                                    {
+                                        "hash": "implicit.stat_2387423236",
+                                        "min": 75,
+                                        "max": 85
+                                    },
+                                    {
+                                        "hash": "implicit.stat_2387423236",
+                                        "min": 115,
+                                        "max": 128
+                                    },
+                                    {
+                                        "hash": "implicit.stat_3417711605",
+                                        "min": -10,
+                                        "max": -10
+                                    }
+                                ]
+                            }
+                        ],
+                        "crafted": [
+                            {
+                                "name": "Upgraded",
+                                "tier": "R4",
+                                "level": 75,
+                                "magnitudes": [
+                                    {
+                                        "hash": "crafted.stat_3299347043",
+                                        "min": 56,
+                                        "max": 70
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "hashes": {
+                        "explicit": [
+                            [
+                                "explicit.stat_4080418644",
+                                [
+                                    0
+                                ]
+                            ],
+                            [
+                                "explicit.stat_3556824919",
+                                [
+                                    2
+                                ]
+                            ],
+                            [
+                                "explicit.stat_3342989455",
+                                [
+                                    3
+                                ]
+                            ],
+                            [
+                                "explicit.stat_2511370818",
+                                [
+                                    1
+                                ]
+                            ],
+                            [
+                                "explicit.stat_1575519214",
+                                [
+                                    1
+                                ]
+                            ]
+                        ],
+                        "implicit": [
+                            [
+                                "implicit.stat_2387423236",
+                                [
+                                    0
+                                ]
+                            ],
+                            [
+                                "implicit.stat_3417711605",
+                                [
+                                    0
+                                ]
+                            ]
+                        ],
+                        "crafted": [
+                            [
+                                "crafted.stat_3299347043",
+                                [
+                                    0
+                                ]
+                            ]
+                        ],
+                        "pseudo": [
+                            [
+                                "pseudo.pseudo_global_critical_strike_multiplier",
+                                null
+                            ]
+                        ]
+                    },
+                    "text": "SXRlbSBDbGFzczogSGVsbWV0cw0KUmFyaXR5OiBSYXJlDQpBZ29ueSBIb3JuDQpCbGl6emFyZCBDcm93bg0KLS0tLS0tLS0NClF1YWxpdHk6ICsyMCUgKGF1Z21lbnRlZCkNCkV2YXNpb24gUmF0aW5nOiAyMjYgKGF1Z21lbnRlZCkNCkVuZXJneSBTaGllbGQ6IDQ2IChhdWdtZW50ZWQpDQotLS0tLS0tLQ0KUmVxdWlyZW1lbnRzOg0KTGV2ZWw6IDc1DQpEZXg6IDc5DQpJbnQ6IDc5DQotLS0tLS0tLQ0KU29ja2V0czogUi1SLVItRyANCi0tLS0tLS0tDQpJdGVtIExldmVsOiA4Mw0KLS0tLS0tLS0NCkFkZHMgODAgdG8gMTIzIENvbGQgRGFtYWdlIChpbXBsaWNpdCkNCllvdXIgSGl0cyB0cmVhdCBDb2xkIFJlc2lzdGFuY2UgYXMgMTAlIGhpZ2hlciB0aGFuIGFjdHVhbCB2YWx1ZSAoaW1wbGljaXQpDQotLS0tLS0tLQ0KKzU0IHRvIFN0cmVuZ3RoDQorMTYlIHRvIEdsb2JhbCBDcml0aWNhbCBTdHJpa2UgTXVsdGlwbGllcg0KOCUgb2YgUGh5c2ljYWwgRGFtYWdlIGZyb20gSGl0cyB0YWtlbiBhcyBGaXJlIERhbWFnZQ0KMSUgaW5jcmVhc2VkIENyaXRpY2FsIFN0cmlrZSBDaGFuY2UgcGVyIDEwIFN0cmVuZ3RoDQpHYWluIEFjY3VyYWN5IFJhdGluZyBlcXVhbCB0byB5b3VyIFN0cmVuZ3RoDQorNjcgdG8gbWF4aW11bSBMaWZlIChjcmFmdGVkKQ0KLS0tLS0tLS0NCldhcmxvcmQgSXRlbQ0KLS0tLS0tLS0NCk5vdGU6IH5wcmljZSA1MCBkaXZpbmUNCg=="
+                },
+                "pseudoMods": [
+                    "+16% Global Critical Strike Multiplier"
+                ]
+            }
+        },
+        {
+            "id": "dc08b24734fbcb8c2a8714d77a39793dce8070492c8344dc3fd2b688c6bf174c",
+            "listing": {
+                "method": "psapi",
+                "indexed": "2024-01-24T20:32:08Z",
+                "stash": {
+                    "name": "INFLUENCE",
+                    "x": 14,
+                    "y": 20
+                },
+                "whisper": "@AFF_SupperAura Hi, I would like to buy your Apocalypse Visage Blizzard Crown listed for 55 divine in Affliction (stash tab \"INFLUENCE\"; position: left 15, top 21)",
+                "whisper_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIyNzc0ZmY3NDNjMzJkMTk3NGNlZjNjZGQ3MzE3N2E0YiIsImlzcyI6Iks5NE92Z0VINSIsImF1ZCI6IjViZjNmNjQ5LWNlMTktNGFjYy1hZDk2LThiZjhmMTM2NWI3MSIsImRzdCI6IkFGRl9TdXBwZXJBdXJhIiwibG9jIjoiZW5fVVMiLCJ0b2siOiJpdGVtIiwic3ViIjoiZGMwOGIyNDczNGZiY2I4YzJhODcxNGQ3N2EzOTc5M2RjZTgwNzA0OTJjODM0NGRjM2ZkMmI2ODhjNmJmMTc0YyIsImRhdCI6ImM3M2JmNGNlZDY3NjQxNjExYjc5NTJjYzljYmJmMzI2IiwiaWF0IjoxNzA2ODY1MzAxLCJleHAiOjE3MDY4NjU2MDF9.lsKIvuSnFciWVjwTWb_si4wP3PTcJFtcSdCSGNQ8M6Q",
+                "account": {
+                    "name": "JulyThang",
+                    "online": {
+                        "league": "Affliction",
+                        "status": "afk"
+                    },
+                    "lastCharacterName": "AFF_SupperAura",
+                    "language": "en_US",
+                    "realm": "pc"
+                },
+                "price": {
+                    "type": "~price",
+                    "amount": 55,
+                    "currency": "divine"
+                }
+            },
+            "item": {
+                "verified": true,
+                "w": 2,
+                "h": 2,
+                "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9IZWxtZXRzL0hlbG1ldERleEludFIiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/9da7af13c1/HelmetDexIntR.png",
+                "league": "Affliction",
+                "id": "dc08b24734fbcb8c2a8714d77a39793dce8070492c8344dc3fd2b688c6bf174c",
+                "influences": {
+                    "warlord": true
+                },
+                "sockets": [
+                    {
+                        "group": 0,
+                        "attr": "I",
+                        "sColour": "B"
+                    },
+                    {
+                        "group": 0,
+                        "attr": "I",
+                        "sColour": "B"
+                    },
+                    {
+                        "group": 0,
+                        "attr": "D",
+                        "sColour": "G"
+                    },
+                    {
+                        "group": 0,
+                        "attr": "I",
+                        "sColour": "B"
+                    }
+                ],
+                "name": "Apocalypse Visage",
+                "typeLine": "Blizzard Crown",
+                "baseType": "Blizzard Crown",
+                "rarity": "Rare",
+                "ilvl": 83,
+                "identified": true,
+                "note": "~price 55 divine",
+                "properties": [
+                    {
+                        "name": "Quality",
+                        "values": [
+                            [
+                                "+20%",
+                                1
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 6
+                    },
+                    {
+                        "name": "Evasion Rating",
+                        "values": [
+                            [
+                                "279",
+                                1
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 17
+                    },
+                    {
+                        "name": "Energy Shield",
+                        "values": [
+                            [
+                                "57",
+                                1
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 18
+                    }
+                ],
+                "requirements": [
+                    {
+                        "name": "Level",
+                        "values": [
+                            [
+                                "75",
+                                0
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 62
+                    },
+                    {
+                        "name": "Dex",
+                        "values": [
+                            [
+                                "79",
+                                0
+                            ]
+                        ],
+                        "displayMode": 1,
+                        "type": 64
+                    },
+                    {
+                        "name": "Int",
+                        "values": [
+                            [
+                                "79",
+                                0
+                            ]
+                        ],
+                        "displayMode": 1,
+                        "type": 65
+                    }
+                ],
+                "implicitMods": [
+                    "Adds 82 to 118 Cold Damage",
+                    "Your Hits treat Cold Resistance as 10% higher than actual value"
+                ],
+                "explicitMods": [
+                    "+2 to Level of Socketed Melee Gems",
+                    "+56 to Strength",
+                    "+11% to Global Critical Strike Multiplier",
+                    "26% increased Evasion and Energy Shield",
+                    "+0.2 metres to Melee Strike Range",
+                    "1% increased Critical Strike Chance per 10 Strength",
+                    "Gain Accuracy Rating equal to your Strength"
+                ],
+                "craftedMods": [
+                    "+67 to maximum Life"
+                ],
+                "frameType": 2,
+                "extended": {
+                    "base_defence_percentile": 21,
+                    "ev": 279,
+                    "es": 57,
+                    "mods": {
+                        "explicit": [
+                            {
+                                "name": "of the Essence",
+                                "tier": "S0",
+                                "level": 82,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_4080418644",
+                                        "min": 51,
+                                        "max": 58
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "of the Elevated Conquest",
+                                "tier": "S0",
+                                "level": 85,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_2511370818",
+                                        "min": 1,
+                                        "max": 1
+                                    },
+                                    {
+                                        "hash": "explicit.stat_1575519214",
+                                        "min": 1,
+                                        "max": 1
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "of the Conquest",
+                                "tier": "S3",
+                                "level": 68,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_3556824919",
+                                        "min": 11,
+                                        "max": 13
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Chosen",
+                                "tier": "P1",
+                                "level": 60,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_829382474",
+                                        "min": 2,
+                                        "max": 2
+                                    },
+                                    {
+                                        "hash": "explicit.stat_2264295449",
+                                        "min": 0.2,
+                                        "max": 0.2
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Shadowy",
+                                "tier": "P7",
+                                "level": 3,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_1999113824",
+                                        "min": 15,
+                                        "max": 26
+                                    }
+                                ]
+                            }
+                        ],
+                        "implicit": [
+                            {
+                                "name": "",
+                                "tier": "",
+                                "level": 75,
+                                "magnitudes": [
+                                    {
+                                        "hash": "implicit.stat_2387423236",
+                                        "min": 75,
+                                        "max": 85
+                                    },
+                                    {
+                                        "hash": "implicit.stat_2387423236",
+                                        "min": 115,
+                                        "max": 128
+                                    },
+                                    {
+                                        "hash": "implicit.stat_3417711605",
+                                        "min": -10,
+                                        "max": -10
+                                    }
+                                ]
+                            }
+                        ],
+                        "crafted": [
+                            {
+                                "name": "Upgraded",
+                                "tier": "R4",
+                                "level": 75,
+                                "magnitudes": [
+                                    {
+                                        "hash": "crafted.stat_3299347043",
+                                        "min": 56,
+                                        "max": 70
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "hashes": {
+                        "explicit": [
+                            [
+                                "explicit.stat_829382474",
+                                [
+                                    3
+                                ]
+                            ],
+                            [
+                                "explicit.stat_4080418644",
+                                [
+                                    0
+                                ]
+                            ],
+                            [
+                                "explicit.stat_3556824919",
+                                [
+                                    2
+                                ]
+                            ],
+                            [
+                                "explicit.stat_1999113824",
+                                [
+                                    4
+                                ]
+                            ],
+                            [
+                                "explicit.stat_2264295449",
+                                [
+                                    3
+                                ]
+                            ],
+                            [
+                                "explicit.stat_2511370818",
+                                [
+                                    1
+                                ]
+                            ],
+                            [
+                                "explicit.stat_1575519214",
+                                [
+                                    1
+                                ]
+                            ]
+                        ],
+                        "implicit": [
+                            [
+                                "implicit.stat_2387423236",
+                                [
+                                    0
+                                ]
+                            ],
+                            [
+                                "implicit.stat_3417711605",
+                                [
+                                    0
+                                ]
+                            ]
+                        ],
+                        "crafted": [
+                            [
+                                "crafted.stat_3299347043",
+                                [
+                                    0
+                                ]
+                            ]
+                        ],
+                        "pseudo": [
+                            [
+                                "pseudo.pseudo_global_critical_strike_multiplier",
+                                null
+                            ]
+                        ]
+                    },
+                    "text": "SXRlbSBDbGFzczogSGVsbWV0cw0KUmFyaXR5OiBSYXJlDQpBcG9jYWx5cHNlIFZpc2FnZQ0KQmxpenphcmQgQ3Jvd24NCi0tLS0tLS0tDQpRdWFsaXR5OiArMjAlIChhdWdtZW50ZWQpDQpFdmFzaW9uIFJhdGluZzogMjc5IChhdWdtZW50ZWQpDQpFbmVyZ3kgU2hpZWxkOiA1NyAoYXVnbWVudGVkKQ0KLS0tLS0tLS0NClJlcXVpcmVtZW50czoNCkxldmVsOiA3NQ0KRGV4OiA3OQ0KSW50OiA3OQ0KLS0tLS0tLS0NClNvY2tldHM6IEItQi1HLUIgDQotLS0tLS0tLQ0KSXRlbSBMZXZlbDogODMNCi0tLS0tLS0tDQpBZGRzIDgyIHRvIDExOCBDb2xkIERhbWFnZSAoaW1wbGljaXQpDQpZb3VyIEhpdHMgdHJlYXQgQ29sZCBSZXNpc3RhbmNlIGFzIDEwJSBoaWdoZXIgdGhhbiBhY3R1YWwgdmFsdWUgKGltcGxpY2l0KQ0KLS0tLS0tLS0NCisyIHRvIExldmVsIG9mIFNvY2tldGVkIE1lbGVlIEdlbXMNCis1NiB0byBTdHJlbmd0aA0KKzExJSB0byBHbG9iYWwgQ3JpdGljYWwgU3RyaWtlIE11bHRpcGxpZXINCjI2JSBpbmNyZWFzZWQgRXZhc2lvbiBhbmQgRW5lcmd5IFNoaWVsZA0KKzAuMiBtZXRyZXMgdG8gTWVsZWUgU3RyaWtlIFJhbmdlDQoxJSBpbmNyZWFzZWQgQ3JpdGljYWwgU3RyaWtlIENoYW5jZSBwZXIgMTAgU3RyZW5ndGgNCkdhaW4gQWNjdXJhY3kgUmF0aW5nIGVxdWFsIHRvIHlvdXIgU3RyZW5ndGgNCis2NyB0byBtYXhpbXVtIExpZmUgKGNyYWZ0ZWQpDQotLS0tLS0tLQ0KV2FybG9yZCBJdGVtDQotLS0tLS0tLQ0KTm90ZTogfnByaWNlIDU1IGRpdmluZQ0K"
+                },
+                "pseudoMods": [
+                    "+11% Global Critical Strike Multiplier"
+                ]
+            }
+        },
+        {
+            "id": "54d0503c249d4cc4d273c346ff46d603aa2dfff5420b2575e702da41ba33f22d",
+            "listing": {
+                "method": "psapi",
+                "indexed": "2024-01-19T22:04:04Z",
+                "stash": {
+                    "name": "INFLUENCE",
+                    "x": 22,
+                    "y": 20
+                },
+                "whisper": "@AFF_SupperAura Hi, I would like to buy your Hypnotic Keep Blizzard Crown listed for 60 divine in Affliction (stash tab \"INFLUENCE\"; position: left 23, top 21)",
+                "whisper_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIyNzc0ZmY3NDNjMzJkMTk3NGNlZjNjZGQ3MzE3N2E0YiIsImlzcyI6Iks5NE92Z0VINSIsImF1ZCI6IjViZjNmNjQ5LWNlMTktNGFjYy1hZDk2LThiZjhmMTM2NWI3MSIsImRzdCI6IkFGRl9TdXBwZXJBdXJhIiwibG9jIjoiZW5fVVMiLCJ0b2siOiJpdGVtIiwic3ViIjoiNTRkMDUwM2MyNDlkNGNjNGQyNzNjMzQ2ZmY0NmQ2MDNhYTJkZmZmNTQyMGIyNTc1ZTcwMmRhNDFiYTMzZjIyZCIsImRhdCI6IjY0Njg4MmIxZTUyMjYxYjJiZmQ5YzMwOTZkN2FlYzdhIiwiaWF0IjoxNzA2ODY1MzAxLCJleHAiOjE3MDY4NjU2MDF9.nokos-41zvou0GGqY1BhuUVPlyI2PPkPw4d8xp-qw7g",
+                "account": {
+                    "name": "JulyThang",
+                    "online": {
+                        "league": "Affliction",
+                        "status": "afk"
+                    },
+                    "lastCharacterName": "AFF_SupperAura",
+                    "language": "en_US",
+                    "realm": "pc"
+                },
+                "price": {
+                    "type": "~price",
+                    "amount": 60,
+                    "currency": "divine"
+                }
+            },
+            "item": {
+                "verified": true,
+                "w": 2,
+                "h": 2,
+                "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9IZWxtZXRzL0hlbG1ldERleEludFIiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/9da7af13c1/HelmetDexIntR.png",
+                "league": "Affliction",
+                "id": "54d0503c249d4cc4d273c346ff46d603aa2dfff5420b2575e702da41ba33f22d",
+                "influences": {
+                    "warlord": true
+                },
+                "sockets": [
+                    {
+                        "group": 0,
+                        "attr": "S",
+                        "sColour": "R"
+                    },
+                    {
+                        "group": 0,
+                        "attr": "S",
+                        "sColour": "R"
+                    },
+                    {
+                        "group": 0,
+                        "attr": "S",
+                        "sColour": "R"
+                    },
+                    {
+                        "group": 0,
+                        "attr": "D",
+                        "sColour": "G"
+                    }
+                ],
+                "name": "Hypnotic Keep",
+                "typeLine": "Blizzard Crown",
+                "baseType": "Blizzard Crown",
+                "rarity": "Rare",
+                "ilvl": 83,
+                "identified": true,
+                "note": "~price 60 divine",
+                "properties": [
+                    {
+                        "name": "Quality",
+                        "values": [
+                            [
+                                "+20%",
+                                1
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 6
+                    },
+                    {
+                        "name": "Evasion Rating",
+                        "values": [
+                            [
+                                "432",
+                                1
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 17
+                    },
+                    {
+                        "name": "Energy Shield",
+                        "values": [
+                            [
+                                "89",
+                                1
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 18
+                    }
+                ],
+                "requirements": [
+                    {
+                        "name": "Level",
+                        "values": [
+                            [
+                                "75",
+                                0
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 62
+                    },
+                    {
+                        "name": "Dex",
+                        "values": [
+                            [
+                                "79",
+                                0
+                            ]
+                        ],
+                        "displayMode": 1,
+                        "type": 64
+                    },
+                    {
+                        "name": "Int",
+                        "values": [
+                            [
+                                "79",
+                                0
+                            ]
+                        ],
+                        "displayMode": 1,
+                        "type": 65
+                    }
+                ],
+                "implicitMods": [
+                    "Adds 82 to 116 Cold Damage",
+                    "Your Hits treat Cold Resistance as 10% higher than actual value"
+                ],
+                "explicitMods": [
+                    "+50 to Strength",
+                    "+15% to Global Critical Strike Multiplier",
+                    "96% increased Evasion and Energy Shield",
+                    "+26 to maximum Life",
+                    "7% increased Stun and Block Recovery",
+                    "1% increased Critical Strike Chance per 10 Strength",
+                    "Gain Accuracy Rating equal to your Strength"
+                ],
+                "frameType": 2,
+                "extended": {
+                    "base_defence_percentile": 58,
+                    "ev": 432,
+                    "es": 89,
+                    "mods": {
+                        "explicit": [
+                            {
+                                "name": "of the Titan",
+                                "tier": "S0",
+                                "level": 74,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_4080418644",
+                                        "min": 43,
+                                        "max": 50
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "of the Elevated Conquest",
+                                "tier": "S0",
+                                "level": 85,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_2511370818",
+                                        "min": 1,
+                                        "max": 1
+                                    },
+                                    {
+                                        "hash": "explicit.stat_1575519214",
+                                        "min": 1,
+                                        "max": 1
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "of the Conquest",
+                                "tier": "S2",
+                                "level": 70,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_3556824919",
+                                        "min": 14,
+                                        "max": 16
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Mosquito's",
+                                "tier": "P6",
+                                "level": 2,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_1999113824",
+                                        "min": 6,
+                                        "max": 13
+                                    },
+                                    {
+                                        "hash": "explicit.stat_2511217560",
+                                        "min": 6,
+                                        "max": 7
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Unreal",
+                                "tier": "P2",
+                                "level": 72,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_1999113824",
+                                        "min": 80,
+                                        "max": 91
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Sanguine",
+                                "tier": "P8",
+                                "level": 11,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_3299347043",
+                                        "min": 20,
+                                        "max": 29
+                                    }
+                                ]
+                            }
+                        ],
+                        "implicit": [
+                            {
+                                "name": "",
+                                "tier": "",
+                                "level": 75,
+                                "magnitudes": [
+                                    {
+                                        "hash": "implicit.stat_2387423236",
+                                        "min": 75,
+                                        "max": 85
+                                    },
+                                    {
+                                        "hash": "implicit.stat_2387423236",
+                                        "min": 115,
+                                        "max": 128
+                                    },
+                                    {
+                                        "hash": "implicit.stat_3417711605",
+                                        "min": -10,
+                                        "max": -10
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "hashes": {
+                        "explicit": [
+                            [
+                                "explicit.stat_4080418644",
+                                [
+                                    0
+                                ]
+                            ],
+                            [
+                                "explicit.stat_3556824919",
+                                [
+                                    2
+                                ]
+                            ],
+                            [
+                                "explicit.stat_1999113824",
+                                [
+                                    3,
+                                    4
+                                ]
+                            ],
+                            [
+                                "explicit.stat_3299347043",
+                                [
+                                    5
+                                ]
+                            ],
+                            [
+                                "explicit.stat_2511217560",
+                                [
+                                    3
+                                ]
+                            ],
+                            [
+                                "explicit.stat_2511370818",
+                                [
+                                    1
+                                ]
+                            ],
+                            [
+                                "explicit.stat_1575519214",
+                                [
+                                    1
+                                ]
+                            ]
+                        ],
+                        "implicit": [
+                            [
+                                "implicit.stat_2387423236",
+                                [
+                                    0
+                                ]
+                            ],
+                            [
+                                "implicit.stat_3417711605",
+                                [
+                                    0
+                                ]
+                            ]
+                        ],
+                        "pseudo": [
+                            [
+                                "pseudo.pseudo_global_critical_strike_multiplier",
+                                null
+                            ]
+                        ]
+                    },
+                    "text": "SXRlbSBDbGFzczogSGVsbWV0cw0KUmFyaXR5OiBSYXJlDQpIeXBub3RpYyBLZWVwDQpCbGl6emFyZCBDcm93bg0KLS0tLS0tLS0NClF1YWxpdHk6ICsyMCUgKGF1Z21lbnRlZCkNCkV2YXNpb24gUmF0aW5nOiA0MzIgKGF1Z21lbnRlZCkNCkVuZXJneSBTaGllbGQ6IDg5IChhdWdtZW50ZWQpDQotLS0tLS0tLQ0KUmVxdWlyZW1lbnRzOg0KTGV2ZWw6IDc1DQpEZXg6IDc5DQpJbnQ6IDc5DQotLS0tLS0tLQ0KU29ja2V0czogUi1SLVItRyANCi0tLS0tLS0tDQpJdGVtIExldmVsOiA4Mw0KLS0tLS0tLS0NCkFkZHMgODIgdG8gMTE2IENvbGQgRGFtYWdlIChpbXBsaWNpdCkNCllvdXIgSGl0cyB0cmVhdCBDb2xkIFJlc2lzdGFuY2UgYXMgMTAlIGhpZ2hlciB0aGFuIGFjdHVhbCB2YWx1ZSAoaW1wbGljaXQpDQotLS0tLS0tLQ0KKzUwIHRvIFN0cmVuZ3RoDQorMTUlIHRvIEdsb2JhbCBDcml0aWNhbCBTdHJpa2UgTXVsdGlwbGllcg0KOTYlIGluY3JlYXNlZCBFdmFzaW9uIGFuZCBFbmVyZ3kgU2hpZWxkDQorMjYgdG8gbWF4aW11bSBMaWZlDQo3JSBpbmNyZWFzZWQgU3R1biBhbmQgQmxvY2sgUmVjb3ZlcnkNCjElIGluY3JlYXNlZCBDcml0aWNhbCBTdHJpa2UgQ2hhbmNlIHBlciAxMCBTdHJlbmd0aA0KR2FpbiBBY2N1cmFjeSBSYXRpbmcgZXF1YWwgdG8geW91ciBTdHJlbmd0aA0KLS0tLS0tLS0NCldhcmxvcmQgSXRlbQ0KLS0tLS0tLS0NCk5vdGU6IH5wcmljZSA2MCBkaXZpbmUNCg=="
+                },
+                "pseudoMods": [
+                    "+15% Global Critical Strike Multiplier"
+                ]
+            }
+        },
+        {
+            "id": "f0d2d85506b8875d89169edaddfbe43eeef80e6a83036a2b01520acd3392f8f2",
+            "listing": {
+                "method": "psapi",
+                "indexed": "2024-02-01T20:09:23Z",
+                "stash": {
+                    "name": "SELL 2",
+                    "x": 4,
+                    "y": 5
+                },
+                "whisper": "@_Groynar_ Здравствуйте, хочу купить у вас Катастрофическая корона Корона метели за 60 divine в лиге Affliction (секция \"SELL 2\"; позиция: 5 столбец, 6 ряд)",
+                "whisper_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIyNzc0ZmY3NDNjMzJkMTk3NGNlZjNjZGQ3MzE3N2E0YiIsImlzcyI6Iks5NE92Z0VINSIsImF1ZCI6IjViZjNmNjQ5LWNlMTktNGFjYy1hZDk2LThiZjhmMTM2NWI3MSIsImRzdCI6Il9Hcm95bmFyXyIsImxvYyI6InJ1X1JVIiwidG9rIjoiaXRlbSIsInN1YiI6ImYwZDJkODU1MDZiODg3NWQ4OTE2OWVkYWRkZmJlNDNlZWVmODBlNmE4MzAzNmEyYjAxNTIwYWNkMzM5MmY4ZjIiLCJkYXQiOiJhZGUyNDY1MTVjZGEyMDM0MWM1M2MxNGU0Mzk1YmYxNyIsImlhdCI6MTcwNjg2NTMwMSwiZXhwIjoxNzA2ODY1NjAxfQ.BJMH-gxSac8iS6B7ShQMIYQoJWcwtUftvWbF0sSq1Bg",
+                "account": {
+                    "name": "Nberko",
+                    "online": {
+                        "league": "Affliction"
+                    },
+                    "lastCharacterName": "_Groynar_",
+                    "language": "ru_RU",
+                    "realm": "pc"
+                },
+                "price": {
+                    "type": "~price",
+                    "amount": 60,
+                    "currency": "divine"
+                }
+            },
+            "item": {
+                "verified": true,
+                "w": 2,
+                "h": 2,
+                "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9IZWxtZXRzL0hlbG1ldERleEludFIiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/9da7af13c1/HelmetDexIntR.png",
+                "league": "Affliction",
+                "id": "f0d2d85506b8875d89169edaddfbe43eeef80e6a83036a2b01520acd3392f8f2",
+                "influences": {
+                    "warlord": true
+                },
+                "sockets": [
+                    {
+                        "group": 0,
+                        "attr": "S",
+                        "sColour": "R"
+                    },
+                    {
+                        "group": 0,
+                        "attr": "S",
+                        "sColour": "R"
+                    },
+                    {
+                        "group": 0,
+                        "attr": "I",
+                        "sColour": "B"
+                    },
+                    {
+                        "group": 0,
+                        "attr": "I",
+                        "sColour": "B"
+                    }
+                ],
+                "name": "Cataclysm Crown",
+                "typeLine": "Blizzard Crown",
+                "baseType": "Blizzard Crown",
+                "rarity": "Rare",
+                "ilvl": 75,
+                "identified": true,
+                "note": "~price 60 divine",
+                "properties": [
+                    {
+                        "name": "Quality",
+                        "values": [
+                            [
+                                "+20%",
+                                1
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 6
+                    },
+                    {
+                        "name": "Evasion Rating",
+                        "values": [
+                            [
+                                "437",
+                                1
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 17
+                    },
+                    {
+                        "name": "Energy Shield",
+                        "values": [
+                            [
+                                "90",
+                                1
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 18
+                    }
+                ],
+                "requirements": [
+                    {
+                        "name": "Level",
+                        "values": [
+                            [
+                                "75",
+                                0
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 62
+                    },
+                    {
+                        "name": "Dex",
+                        "values": [
+                            [
+                                "79",
+                                0
+                            ]
+                        ],
+                        "displayMode": 1,
+                        "type": 64
+                    },
+                    {
+                        "name": "Int",
+                        "values": [
+                            [
+                                "79",
+                                0
+                            ]
+                        ],
+                        "displayMode": 1,
+                        "type": 65
+                    }
+                ],
+                "implicitMods": [
+                    "Adds 85 to 126 Cold Damage",
+                    "Your Hits treat Cold Resistance as 10% higher than actual value"
+                ],
+                "explicitMods": [
+                    "+52 to Strength",
+                    "+16% to Global Critical Strike Multiplier",
+                    "83% increased Evasion and Energy Shield",
+                    "+56 to maximum Life",
+                    "Regenerate 5.3 Mana per second",
+                    "1% increased Critical Strike Chance per 10 Strength",
+                    "Gain Accuracy Rating equal to your Strength"
+                ],
+                "craftedMods": [
+                    "21% increased Armour, Evasion and Energy Shield",
+                    "+16 to maximum Life"
+                ],
+                "frameType": 2,
+                "extended": {
+                    "base_defence_percentile": 39,
+                    "ev": 437,
+                    "es": 90,
+                    "mods": {
+                        "explicit": [
+                            {
+                                "name": "of the Essence",
+                                "tier": "S0",
+                                "level": 82,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_4080418644",
+                                        "min": 51,
+                                        "max": 58
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "of the Elevated Conquest",
+                                "tier": "S0",
+                                "level": 85,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_2511370818",
+                                        "min": 1,
+                                        "max": 1
+                                    },
+                                    {
+                                        "hash": "explicit.stat_1575519214",
+                                        "min": 1,
+                                        "max": 1
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "of the Conquest",
+                                "tier": "S2",
+                                "level": 70,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_3556824919",
+                                        "min": 14,
+                                        "max": 16
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Chosen",
+                                "tier": "P1",
+                                "level": 60,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_3299347043",
+                                        "min": 55,
+                                        "max": 60
+                                    },
+                                    {
+                                        "hash": "explicit.stat_4291461939",
+                                        "min": 5.3,
+                                        "max": 5.3
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Unreal",
+                                "tier": "P2",
+                                "level": 72,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_1999113824",
+                                        "min": 80,
+                                        "max": 91
+                                    }
+                                ]
+                            }
+                        ],
+                        "implicit": [
+                            {
+                                "name": "",
+                                "tier": "",
+                                "level": 75,
+                                "magnitudes": [
+                                    {
+                                        "hash": "implicit.stat_2387423236",
+                                        "min": 75,
+                                        "max": 85
+                                    },
+                                    {
+                                        "hash": "implicit.stat_2387423236",
+                                        "min": 115,
+                                        "max": 128
+                                    },
+                                    {
+                                        "hash": "implicit.stat_3417711605",
+                                        "min": -10,
+                                        "max": -10
+                                    }
+                                ]
+                            }
+                        ],
+                        "crafted": [
+                            {
+                                "name": "Chosen",
+                                "tier": "P0",
+                                "level": 81,
+                                "magnitudes": [
+                                    {
+                                        "hash": "crafted.stat_3523867985",
+                                        "min": 18,
+                                        "max": 21
+                                    },
+                                    {
+                                        "hash": "crafted.stat_3299347043",
+                                        "min": 14,
+                                        "max": 16
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "hashes": {
+                        "explicit": [
+                            [
+                                "explicit.stat_4080418644",
+                                [
+                                    0
+                                ]
+                            ],
+                            [
+                                "explicit.stat_3556824919",
+                                [
+                                    2
+                                ]
+                            ],
+                            [
+                                "explicit.stat_1999113824",
+                                [
+                                    4
+                                ]
+                            ],
+                            [
+                                "explicit.stat_3299347043",
+                                [
+                                    3
+                                ]
+                            ],
+                            [
+                                "explicit.stat_4291461939",
+                                [
+                                    3
+                                ]
+                            ],
+                            [
+                                "explicit.stat_2511370818",
+                                [
+                                    1
+                                ]
+                            ],
+                            [
+                                "explicit.stat_1575519214",
+                                [
+                                    1
+                                ]
+                            ]
+                        ],
+                        "implicit": [
+                            [
+                                "implicit.stat_2387423236",
+                                [
+                                    0
+                                ]
+                            ],
+                            [
+                                "implicit.stat_3417711605",
+                                [
+                                    0
+                                ]
+                            ]
+                        ],
+                        "crafted": [
+                            [
+                                "crafted.stat_3523867985",
+                                [
+                                    0
+                                ]
+                            ],
+                            [
+                                "crafted.stat_3299347043",
+                                [
+                                    0
+                                ]
+                            ]
+                        ],
+                        "pseudo": [
+                            [
+                                "pseudo.pseudo_global_critical_strike_multiplier",
+                                null
+                            ]
+                        ]
+                    },
+                    "text": "SXRlbSBDbGFzczogSGVsbWV0cw0KUmFyaXR5OiBSYXJlDQpDYXRhY2x5c20gQ3Jvd24NCkJsaXp6YXJkIENyb3duDQotLS0tLS0tLQ0KUXVhbGl0eTogKzIwJSAoYXVnbWVudGVkKQ0KRXZhc2lvbiBSYXRpbmc6IDQzNyAoYXVnbWVudGVkKQ0KRW5lcmd5IFNoaWVsZDogOTAgKGF1Z21lbnRlZCkNCi0tLS0tLS0tDQpSZXF1aXJlbWVudHM6DQpMZXZlbDogNzUNCkRleDogNzkNCkludDogNzkNCi0tLS0tLS0tDQpTb2NrZXRzOiBSLVItQi1CIA0KLS0tLS0tLS0NCkl0ZW0gTGV2ZWw6IDc1DQotLS0tLS0tLQ0KQWRkcyA4NSB0byAxMjYgQ29sZCBEYW1hZ2UgKGltcGxpY2l0KQ0KWW91ciBIaXRzIHRyZWF0IENvbGQgUmVzaXN0YW5jZSBhcyAxMCUgaGlnaGVyIHRoYW4gYWN0dWFsIHZhbHVlIChpbXBsaWNpdCkNCi0tLS0tLS0tDQorNTIgdG8gU3RyZW5ndGgNCisxNiUgdG8gR2xvYmFsIENyaXRpY2FsIFN0cmlrZSBNdWx0aXBsaWVyDQo4MyUgaW5jcmVhc2VkIEV2YXNpb24gYW5kIEVuZXJneSBTaGllbGQNCis1NiB0byBtYXhpbXVtIExpZmUNClJlZ2VuZXJhdGUgNS4zIE1hbmEgcGVyIHNlY29uZA0KMSUgaW5jcmVhc2VkIENyaXRpY2FsIFN0cmlrZSBDaGFuY2UgcGVyIDEwIFN0cmVuZ3RoDQpHYWluIEFjY3VyYWN5IFJhdGluZyBlcXVhbCB0byB5b3VyIFN0cmVuZ3RoDQoyMSUgaW5jcmVhc2VkIEFybW91ciwgRXZhc2lvbiBhbmQgRW5lcmd5IFNoaWVsZCAoY3JhZnRlZCkNCisxNiB0byBtYXhpbXVtIExpZmUgKGNyYWZ0ZWQpDQotLS0tLS0tLQ0KV2FybG9yZCBJdGVtDQotLS0tLS0tLQ0KTm90ZTogfnByaWNlIDYwIGRpdmluZQ0K"
+                },
+                "pseudoMods": [
+                    "+16% Global Critical Strike Multiplier"
+                ]
+            }
+        },
+        {
+            "id": "46bb3c1a93938020cd3a3dea4b34fd4e8a8711073be4de0701efb7199da09163",
+            "listing": {
+                "method": "psapi",
+                "indexed": "2024-02-01T23:11:44Z",
+                "stash": {
+                    "name": "sell",
+                    "x": 3,
+                    "y": 0
+                },
+                "whisper": "@PakistanIsBestMhhmmhmm Hi, I would like to buy your Phoenix Keep Blizzard Crown listed for 65 divine in Affliction (stash tab \"sell\"; position: left 4, top 1)",
+                "whisper_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIyNzc0ZmY3NDNjMzJkMTk3NGNlZjNjZGQ3MzE3N2E0YiIsImlzcyI6Iks5NE92Z0VINSIsImF1ZCI6IjViZjNmNjQ5LWNlMTktNGFjYy1hZDk2LThiZjhmMTM2NWI3MSIsImRzdCI6IlBha2lzdGFuSXNCZXN0TWhobW1obW0iLCJsb2MiOiJlbl9VUyIsInRvayI6Iml0ZW0iLCJzdWIiOiI0NmJiM2MxYTkzOTM4MDIwY2QzYTNkZWE0YjM0ZmQ0ZThhODcxMTA3M2JlNGRlMDcwMWVmYjcxOTlkYTA5MTYzIiwiZGF0IjoiYWE4OWJkMjA1ZDA3OTkxOWYxYjI1YTU2MjE5OThhNDAiLCJpYXQiOjE3MDY4NjUzMDEsImV4cCI6MTcwNjg2NTYwMX0.Kj2KSyCwHnPhpKC25adJiU38_NrpDSsMQQNjIWeuf28",
+                "account": {
+                    "name": "Kurtbert",
+                    "online": {
+                        "league": "Affliction"
+                    },
+                    "lastCharacterName": "PakistanIsBestMhhmmhmm",
+                    "language": "en_US",
+                    "realm": "pc"
+                },
+                "price": {
+                    "type": "~price",
+                    "amount": 65,
+                    "currency": "divine"
+                }
+            },
+            "item": {
+                "verified": true,
+                "w": 2,
+                "h": 2,
+                "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9IZWxtZXRzL0hlbG1ldERleEludFIiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/9da7af13c1/HelmetDexIntR.png",
+                "league": "Affliction",
+                "id": "46bb3c1a93938020cd3a3dea4b34fd4e8a8711073be4de0701efb7199da09163",
+                "influences": {
+                    "warlord": true
+                },
+                "sockets": [
+                    {
+                        "group": 0,
+                        "attr": "S",
+                        "sColour": "R"
+                    },
+                    {
+                        "group": 0,
+                        "attr": "S",
+                        "sColour": "R"
+                    },
+                    {
+                        "group": 0,
+                        "attr": "I",
+                        "sColour": "B"
+                    },
+                    {
+                        "group": 0,
+                        "attr": "I",
+                        "sColour": "B"
+                    }
+                ],
+                "name": "Phoenix Keep",
+                "typeLine": "Blizzard Crown",
+                "baseType": "Blizzard Crown",
+                "rarity": "Rare",
+                "ilvl": 83,
+                "identified": true,
+                "note": "~price 65 divine",
+                "properties": [
+                    {
+                        "name": "Quality",
+                        "values": [
+                            [
+                                "+30%",
+                                1
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 6
+                    },
+                    {
+                        "name": "Evasion Rating",
+                        "values": [
+                            [
+                                "276",
+                                1
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 17
+                    },
+                    {
+                        "name": "Energy Shield",
+                        "values": [
+                            [
+                                "56",
+                                1
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 18
+                    }
+                ],
+                "requirements": [
+                    {
+                        "name": "Level",
+                        "values": [
+                            [
+                                "75",
+                                0
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 62
+                    },
+                    {
+                        "name": "Dex",
+                        "values": [
+                            [
+                                "79",
+                                0
+                            ]
+                        ],
+                        "displayMode": 1,
+                        "type": 64
+                    },
+                    {
+                        "name": "Int",
+                        "values": [
+                            [
+                                "79",
+                                0
+                            ]
+                        ],
+                        "displayMode": 1,
+                        "type": 65
+                    }
+                ],
+                "implicitMods": [
+                    "Adds 84 to 128 Cold Damage",
+                    "Your Hits treat Cold Resistance as 10% higher than actual value"
+                ],
+                "explicitMods": [
+                    "+2 to Level of Socketed AoE Gems",
+                    "+57 to Strength",
+                    "+20% to Global Critical Strike Multiplier",
+                    "9% increased Area of Effect",
+                    "4% of Physical Damage from Hits taken as Fire Damage",
+                    "1% increased Critical Strike Chance per 10 Strength",
+                    "Gain Accuracy Rating equal to your Strength"
+                ],
+                "craftedMods": [
+                    "+70 to maximum Life"
+                ],
+                "frameType": 2,
+                "extended": {
+                    "base_defence_percentile": 100,
+                    "ev": 276,
+                    "es": 56,
+                    "mods": {
+                        "explicit": [
+                            {
+                                "name": "of the Essence",
+                                "tier": "S0",
+                                "level": 82,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_4080418644",
+                                        "min": 51,
+                                        "max": 58
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "of the Elevated Conquest",
+                                "tier": "S0",
+                                "level": 85,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_2511370818",
+                                        "min": 1,
+                                        "max": 1
+                                    },
+                                    {
+                                        "hash": "explicit.stat_1575519214",
+                                        "min": 1,
+                                        "max": 1
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "of the Conquest",
+                                "tier": "S1",
+                                "level": 75,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_3556824919",
+                                        "min": 17,
+                                        "max": 20
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Chosen",
+                                "tier": "P1",
+                                "level": 60,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_2551600084",
+                                        "min": 2,
+                                        "max": 2
+                                    },
+                                    {
+                                        "hash": "explicit.stat_280731498",
+                                        "min": 8,
+                                        "max": 10
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Warlord's",
+                                "tier": "P2",
+                                "level": 68,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_3342989455",
+                                        "min": 4,
+                                        "max": 6
+                                    }
+                                ]
+                            }
+                        ],
+                        "implicit": [
+                            {
+                                "name": "",
+                                "tier": "",
+                                "level": 75,
+                                "magnitudes": [
+                                    {
+                                        "hash": "implicit.stat_2387423236",
+                                        "min": 75,
+                                        "max": 85
+                                    },
+                                    {
+                                        "hash": "implicit.stat_2387423236",
+                                        "min": 115,
+                                        "max": 128
+                                    },
+                                    {
+                                        "hash": "implicit.stat_3417711605",
+                                        "min": -10,
+                                        "max": -10
+                                    }
+                                ]
+                            }
+                        ],
+                        "crafted": [
+                            {
+                                "name": "Upgraded",
+                                "tier": "R4",
+                                "level": 75,
+                                "magnitudes": [
+                                    {
+                                        "hash": "crafted.stat_3299347043",
+                                        "min": 56,
+                                        "max": 70
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "hashes": {
+                        "explicit": [
+                            [
+                                "explicit.stat_2551600084",
+                                [
+                                    3
+                                ]
+                            ],
+                            [
+                                "explicit.stat_4080418644",
+                                [
+                                    0
+                                ]
+                            ],
+                            [
+                                "explicit.stat_3556824919",
+                                [
+                                    2
+                                ]
+                            ],
+                            [
+                                "explicit.stat_280731498",
+                                [
+                                    3
+                                ]
+                            ],
+                            [
+                                "explicit.stat_3342989455",
+                                [
+                                    4
+                                ]
+                            ],
+                            [
+                                "explicit.stat_2511370818",
+                                [
+                                    1
+                                ]
+                            ],
+                            [
+                                "explicit.stat_1575519214",
+                                [
+                                    1
+                                ]
+                            ]
+                        ],
+                        "implicit": [
+                            [
+                                "implicit.stat_2387423236",
+                                [
+                                    0
+                                ]
+                            ],
+                            [
+                                "implicit.stat_3417711605",
+                                [
+                                    0
+                                ]
+                            ]
+                        ],
+                        "crafted": [
+                            [
+                                "crafted.stat_3299347043",
+                                [
+                                    0
+                                ]
+                            ]
+                        ],
+                        "pseudo": [
+                            [
+                                "pseudo.pseudo_global_critical_strike_multiplier",
+                                null
+                            ]
+                        ]
+                    },
+                    "text": "SXRlbSBDbGFzczogSGVsbWV0cw0KUmFyaXR5OiBSYXJlDQpQaG9lbml4IEtlZXANCkJsaXp6YXJkIENyb3duDQotLS0tLS0tLQ0KUXVhbGl0eTogKzMwJSAoYXVnbWVudGVkKQ0KRXZhc2lvbiBSYXRpbmc6IDI3NiAoYXVnbWVudGVkKQ0KRW5lcmd5IFNoaWVsZDogNTYgKGF1Z21lbnRlZCkNCi0tLS0tLS0tDQpSZXF1aXJlbWVudHM6DQpMZXZlbDogNzUNCkRleDogNzkNCkludDogNzkNCi0tLS0tLS0tDQpTb2NrZXRzOiBSLVItQi1CIA0KLS0tLS0tLS0NCkl0ZW0gTGV2ZWw6IDgzDQotLS0tLS0tLQ0KQWRkcyA4NCB0byAxMjggQ29sZCBEYW1hZ2UgKGltcGxpY2l0KQ0KWW91ciBIaXRzIHRyZWF0IENvbGQgUmVzaXN0YW5jZSBhcyAxMCUgaGlnaGVyIHRoYW4gYWN0dWFsIHZhbHVlIChpbXBsaWNpdCkNCi0tLS0tLS0tDQorMiB0byBMZXZlbCBvZiBTb2NrZXRlZCBBb0UgR2Vtcw0KKzU3IHRvIFN0cmVuZ3RoDQorMjAlIHRvIEdsb2JhbCBDcml0aWNhbCBTdHJpa2UgTXVsdGlwbGllcg0KOSUgaW5jcmVhc2VkIEFyZWEgb2YgRWZmZWN0DQo0JSBvZiBQaHlzaWNhbCBEYW1hZ2UgZnJvbSBIaXRzIHRha2VuIGFzIEZpcmUgRGFtYWdlDQoxJSBpbmNyZWFzZWQgQ3JpdGljYWwgU3RyaWtlIENoYW5jZSBwZXIgMTAgU3RyZW5ndGgNCkdhaW4gQWNjdXJhY3kgUmF0aW5nIGVxdWFsIHRvIHlvdXIgU3RyZW5ndGgNCis3MCB0byBtYXhpbXVtIExpZmUgKGNyYWZ0ZWQpDQotLS0tLS0tLQ0KV2FybG9yZCBJdGVtDQotLS0tLS0tLQ0KTm90ZTogfnByaWNlIDY1IGRpdmluZQ0K"
+                },
+                "pseudoMods": [
+                    "+20% Global Critical Strike Multiplier"
+                ]
+            }
+        },
+        {
+            "id": "d0b06799b0c5fc3f4f2b58f298ec6d63881a8e63a86867ef16be4cdbfdad49a8",
+            "listing": {
+                "method": "psapi",
+                "indexed": "2024-01-31T02:14:31Z",
+                "stash": {
+                    "name": "VenomGyre",
+                    "x": 10,
+                    "y": 5
+                },
+                "whisper": "@TheChildrenYearn Hi, I would like to buy your Dire Shelter Blizzard Crown listed for 65 divine in Affliction (stash tab \"VenomGyre\"; position: left 11, top 6)",
+                "whisper_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIyNzc0ZmY3NDNjMzJkMTk3NGNlZjNjZGQ3MzE3N2E0YiIsImlzcyI6Iks5NE92Z0VINSIsImF1ZCI6IjViZjNmNjQ5LWNlMTktNGFjYy1hZDk2LThiZjhmMTM2NWI3MSIsImRzdCI6IlRoZUNoaWxkcmVuWWVhcm4iLCJsb2MiOiJlbl9VUyIsInRvayI6Iml0ZW0iLCJzdWIiOiJkMGIwNjc5OWIwYzVmYzNmNGYyYjU4ZjI5OGVjNmQ2Mzg4MWE4ZTYzYTg2ODY3ZWYxNmJlNGNkYmZkYWQ0OWE4IiwiZGF0IjoiY2E5ZmUyYzM5NDY4OGE5ZGIzMDQ5ZmJiNjQ4MTZlZDUiLCJpYXQiOjE3MDY4NjUzMDEsImV4cCI6MTcwNjg2NTYwMX0.B3LF9eCYx7QaCaV9-EmzMX6AYZkFkRG7lqRz6cwmXwo",
+                "account": {
+                    "name": "Alsaya",
+                    "online": {
+                        "league": "Affliction"
+                    },
+                    "lastCharacterName": "TheChildrenYearn",
+                    "language": "en_US",
+                    "realm": "pc"
+                },
+                "price": {
+                    "type": "~price",
+                    "amount": 65,
+                    "currency": "divine"
+                }
+            },
+            "item": {
+                "verified": true,
+                "w": 2,
+                "h": 2,
+                "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9IZWxtZXRzL0hlbG1ldERleEludFIiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/9da7af13c1/HelmetDexIntR.png",
+                "league": "Affliction",
+                "id": "d0b06799b0c5fc3f4f2b58f298ec6d63881a8e63a86867ef16be4cdbfdad49a8",
+                "influences": {
+                    "warlord": true
+                },
+                "sockets": [
+                    {
+                        "group": 0,
+                        "attr": "S",
+                        "sColour": "R"
+                    },
+                    {
+                        "group": 0,
+                        "attr": "I",
+                        "sColour": "B"
+                    },
+                    {
+                        "group": 0,
+                        "attr": "D",
+                        "sColour": "G"
+                    },
+                    {
+                        "group": 0,
+                        "attr": "I",
+                        "sColour": "B"
+                    }
+                ],
+                "name": "Dire Shelter",
+                "typeLine": "Blizzard Crown",
+                "baseType": "Blizzard Crown",
+                "rarity": "Rare",
+                "ilvl": 83,
+                "identified": true,
+                "note": "~price 65 divine",
+                "properties": [
+                    {
+                        "name": "Quality",
+                        "values": [
+                            [
+                                "+25%",
+                                1
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 6
+                    },
+                    {
+                        "name": "Evasion Rating",
+                        "values": [
+                            [
+                                "265",
+                                1
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 17
+                    },
+                    {
+                        "name": "Energy Shield",
+                        "values": [
+                            [
+                                "54",
+                                1
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 18
+                    }
+                ],
+                "requirements": [
+                    {
+                        "name": "Level",
+                        "values": [
+                            [
+                                "75",
+                                0
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 62
+                    },
+                    {
+                        "name": "Dex",
+                        "values": [
+                            [
+                                "79",
+                                0
+                            ]
+                        ],
+                        "displayMode": 1,
+                        "type": 64
+                    },
+                    {
+                        "name": "Int",
+                        "values": [
+                            [
+                                "79",
+                                0
+                            ]
+                        ],
+                        "displayMode": 1,
+                        "type": 65
+                    }
+                ],
+                "implicitMods": [
+                    "Adds 79 to 128 Cold Damage",
+                    "Your Hits treat Cold Resistance as 10% higher than actual value",
+                    "Item sells for much more to vendors"
+                ],
+                "explicitMods": [
+                    "+55 to Strength",
+                    "+16% to Global Critical Strike Multiplier",
+                    "+75 to maximum Life",
+                    "21% increased Rarity of Items found",
+                    "1% increased Critical Strike Chance per 10 Strength",
+                    "Gain Accuracy Rating equal to your Strength"
+                ],
+                "craftedMods": [
+                    "7% of Physical Damage from Hits taken as Fire Damage"
+                ],
+                "frameType": 2,
+                "extended": {
+                    "base_defence_percentile": 100,
+                    "ev": 265,
+                    "es": 54,
+                    "mods": {
+                        "explicit": [
+                            {
+                                "name": "of the Essence",
+                                "tier": "S0",
+                                "level": 82,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_4080418644",
+                                        "min": 51,
+                                        "max": 58
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "of the Elevated Conquest",
+                                "tier": "S0",
+                                "level": 85,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_2511370818",
+                                        "min": 1,
+                                        "max": 1
+                                    },
+                                    {
+                                        "hash": "explicit.stat_1575519214",
+                                        "min": 1,
+                                        "max": 1
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "of the Conquest",
+                                "tier": "S2",
+                                "level": 70,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_3556824919",
+                                        "min": 14,
+                                        "max": 16
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Virile",
+                                "tier": "P3",
+                                "level": 44,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_3299347043",
+                                        "min": 70,
+                                        "max": 79
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Dragon's",
+                                "tier": "P1",
+                                "level": 62,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_3917489142",
+                                        "min": 19,
+                                        "max": 24
+                                    }
+                                ]
+                            }
+                        ],
+                        "implicit": [
+                            {
+                                "name": "",
+                                "tier": "",
+                                "level": 75,
+                                "magnitudes": [
+                                    {
+                                        "hash": "implicit.stat_2387423236",
+                                        "min": 75,
+                                        "max": 85
+                                    },
+                                    {
+                                        "hash": "implicit.stat_2387423236",
+                                        "min": 115,
+                                        "max": 128
+                                    },
+                                    {
+                                        "hash": "implicit.stat_3417711605",
+                                        "min": -10,
+                                        "max": -10
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "",
+                                "tier": "",
+                                "level": 1,
+                                "magnitudes": [
+                                    {
+                                        "hash": "implicit.stat_3513534186",
+                                        "min": 2,
+                                        "max": 2
+                                    }
+                                ]
+                            }
+                        ],
+                        "crafted": [
+                            {
+                                "name": "Korell's",
+                                "tier": "P0",
+                                "level": 81,
+                                "magnitudes": [
+                                    {
+                                        "hash": "crafted.stat_3342989455",
+                                        "min": 7,
+                                        "max": 8
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "hashes": {
+                        "explicit": [
+                            [
+                                "explicit.stat_4080418644",
+                                [
+                                    0
+                                ]
+                            ],
+                            [
+                                "explicit.stat_3556824919",
+                                [
+                                    2
+                                ]
+                            ],
+                            [
+                                "explicit.stat_3299347043",
+                                [
+                                    3
+                                ]
+                            ],
+                            [
+                                "explicit.stat_3917489142",
+                                [
+                                    4
+                                ]
+                            ],
+                            [
+                                "explicit.stat_2511370818",
+                                [
+                                    1
+                                ]
+                            ],
+                            [
+                                "explicit.stat_1575519214",
+                                [
+                                    1
+                                ]
+                            ]
+                        ],
+                        "implicit": [
+                            [
+                                "implicit.stat_2387423236",
+                                [
+                                    0
+                                ]
+                            ],
+                            [
+                                "implicit.stat_3417711605",
+                                [
+                                    0
+                                ]
+                            ],
+                            [
+                                "implicit.stat_3513534186",
+                                [
+                                    1
+                                ]
+                            ]
+                        ],
+                        "crafted": [
+                            [
+                                "crafted.stat_3342989455",
+                                [
+                                    0
+                                ]
+                            ]
+                        ],
+                        "pseudo": [
+                            [
+                                "pseudo.pseudo_global_critical_strike_multiplier",
+                                null
+                            ]
+                        ]
+                    },
+                    "text": "SXRlbSBDbGFzczogSGVsbWV0cw0KUmFyaXR5OiBSYXJlDQpEaXJlIFNoZWx0ZXINCkJsaXp6YXJkIENyb3duDQotLS0tLS0tLQ0KUXVhbGl0eTogKzI1JSAoYXVnbWVudGVkKQ0KRXZhc2lvbiBSYXRpbmc6IDI2NSAoYXVnbWVudGVkKQ0KRW5lcmd5IFNoaWVsZDogNTQgKGF1Z21lbnRlZCkNCi0tLS0tLS0tDQpSZXF1aXJlbWVudHM6DQpMZXZlbDogNzUNCkRleDogNzkNCkludDogNzkNCi0tLS0tLS0tDQpTb2NrZXRzOiBSLUItRy1CIA0KLS0tLS0tLS0NCkl0ZW0gTGV2ZWw6IDgzDQotLS0tLS0tLQ0KQWRkcyA3OSB0byAxMjggQ29sZCBEYW1hZ2UgKGltcGxpY2l0KQ0KWW91ciBIaXRzIHRyZWF0IENvbGQgUmVzaXN0YW5jZSBhcyAxMCUgaGlnaGVyIHRoYW4gYWN0dWFsIHZhbHVlIChpbXBsaWNpdCkNCkl0ZW0gc2VsbHMgZm9yIG11Y2ggbW9yZSB0byB2ZW5kb3JzIChpbXBsaWNpdCkNCi0tLS0tLS0tDQorNTUgdG8gU3RyZW5ndGgNCisxNiUgdG8gR2xvYmFsIENyaXRpY2FsIFN0cmlrZSBNdWx0aXBsaWVyDQorNzUgdG8gbWF4aW11bSBMaWZlDQoyMSUgaW5jcmVhc2VkIFJhcml0eSBvZiBJdGVtcyBmb3VuZA0KMSUgaW5jcmVhc2VkIENyaXRpY2FsIFN0cmlrZSBDaGFuY2UgcGVyIDEwIFN0cmVuZ3RoDQpHYWluIEFjY3VyYWN5IFJhdGluZyBlcXVhbCB0byB5b3VyIFN0cmVuZ3RoDQo3JSBvZiBQaHlzaWNhbCBEYW1hZ2UgZnJvbSBIaXRzIHRha2VuIGFzIEZpcmUgRGFtYWdlIChjcmFmdGVkKQ0KLS0tLS0tLS0NCldhcmxvcmQgSXRlbQ0KLS0tLS0tLS0NCk5vdGU6IH5wcmljZSA2NSBkaXZpbmUNCg=="
+                },
+                "pseudoMods": [
+                    "+16% Global Critical Strike Multiplier"
+                ]
+            }
+        },
+        {
+            "id": "87809d9a2cecd6dc4c8b68529b332a4e9042df09ca219af4e9c16aa8f03251c9",
+            "listing": {
+                "method": "psapi",
+                "indexed": "2024-02-02T06:44:16Z",
+                "stash": {
+                    "name": "strength gear",
+                    "x": 5,
+                    "y": 1
+                },
+                "whisper": "@ThrowingTantrums Hi, I would like to buy your Dusk Dome Blizzard Crown listed for 70 divine in Affliction (stash tab \"strength gear\"; position: left 6, top 2)",
+                "whisper_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIyNzc0ZmY3NDNjMzJkMTk3NGNlZjNjZGQ3MzE3N2E0YiIsImlzcyI6Iks5NE92Z0VINSIsImF1ZCI6IjViZjNmNjQ5LWNlMTktNGFjYy1hZDk2LThiZjhmMTM2NWI3MSIsImRzdCI6IlRocm93aW5nVGFudHJ1bXMiLCJsb2MiOiJlbl9VUyIsInRvayI6Iml0ZW0iLCJzdWIiOiI4NzgwOWQ5YTJjZWNkNmRjNGM4YjY4NTI5YjMzMmE0ZTkwNDJkZjA5Y2EyMTlhZjRlOWMxNmFhOGYwMzI1MWM5IiwiZGF0IjoiZTlhMTA2OGE5MmEzMDBlYTJiNjYxOGZmOTg1YzQ3ZTYiLCJpYXQiOjE3MDY4NjUzMDEsImV4cCI6MTcwNjg2NTYwMX0.E4O5u-k68m0RXVLPbiPUYGFv4Z7kqozk2E7Q9AXG12s",
+                "account": {
+                    "name": "RoyalSanke",
+                    "online": {
+                        "league": "Affliction",
+                        "status": "afk"
+                    },
+                    "lastCharacterName": "ThrowingTantrums",
+                    "language": "en_US",
+                    "realm": "pc"
+                },
+                "price": {
+                    "type": "~price",
+                    "amount": 70,
+                    "currency": "divine"
+                }
+            },
+            "item": {
+                "verified": true,
+                "w": 2,
+                "h": 2,
+                "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9IZWxtZXRzL0hlbG1ldERleEludFIiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/9da7af13c1/HelmetDexIntR.png",
+                "league": "Affliction",
+                "id": "87809d9a2cecd6dc4c8b68529b332a4e9042df09ca219af4e9c16aa8f03251c9",
+                "influences": {
+                    "warlord": true
+                },
+                "sockets": [
+                    {
+                        "group": 0,
+                        "attr": "I",
+                        "sColour": "B"
+                    },
+                    {
+                        "group": 0,
+                        "attr": "S",
+                        "sColour": "R"
+                    },
+                    {
+                        "group": 0,
+                        "attr": "I",
+                        "sColour": "B"
+                    },
+                    {
+                        "group": 0,
+                        "attr": "D",
+                        "sColour": "G"
+                    }
+                ],
+                "name": "Dusk Dome",
+                "typeLine": "Blizzard Crown",
+                "baseType": "Blizzard Crown",
+                "rarity": "Rare",
+                "ilvl": 83,
+                "identified": true,
+                "note": "~price 70 divine",
+                "properties": [
+                    {
+                        "name": "Quality",
+                        "values": [
+                            [
+                                "+20%",
+                                1
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 6
+                    },
+                    {
+                        "name": "Evasion Rating",
+                        "values": [
+                            [
+                                "238",
+                                1
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 17
+                    },
+                    {
+                        "name": "Energy Shield",
+                        "values": [
+                            [
+                                "48",
+                                1
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 18
+                    }
+                ],
+                "requirements": [
+                    {
+                        "name": "Level",
+                        "values": [
+                            [
+                                "75",
+                                0
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 62
+                    },
+                    {
+                        "name": "Dex",
+                        "values": [
+                            [
+                                "79",
+                                0
+                            ]
+                        ],
+                        "displayMode": 1,
+                        "type": 64
+                    },
+                    {
+                        "name": "Int",
+                        "values": [
+                            [
+                                "79",
+                                0
+                            ]
+                        ],
+                        "displayMode": 1,
+                        "type": 65
+                    }
+                ],
+                "implicitMods": [
+                    "Adds 85 to 128 Cold Damage",
+                    "Your Hits treat Cold Resistance as 10% higher than actual value",
+                    "Item sells for much more to vendors"
+                ],
+                "explicitMods": [
+                    "+2 to Level of Socketed AoE Gems",
+                    "+57 to Strength",
+                    "+12% to Global Critical Strike Multiplier",
+                    "+66 to maximum Mana",
+                    "8% increased Area of Effect",
+                    "1% increased Critical Strike Chance per 10 Strength",
+                    "Gain Accuracy Rating equal to your Strength"
+                ],
+                "craftedMods": [
+                    "+70 to maximum Life"
+                ],
+                "frameType": 2,
+                "extended": {
+                    "base_defence_percentile": 44,
+                    "ev": 238,
+                    "es": 48,
+                    "mods": {
+                        "explicit": [
+                            {
+                                "name": "of the Essence",
+                                "tier": "S0",
+                                "level": 82,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_4080418644",
+                                        "min": 51,
+                                        "max": 58
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "of the Elevated Conquest",
+                                "tier": "S0",
+                                "level": 85,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_2511370818",
+                                        "min": 1,
+                                        "max": 1
+                                    },
+                                    {
+                                        "hash": "explicit.stat_1575519214",
+                                        "min": 1,
+                                        "max": 1
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "of the Conquest",
+                                "tier": "S3",
+                                "level": 68,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_3556824919",
+                                        "min": 11,
+                                        "max": 13
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Chosen",
+                                "tier": "P1",
+                                "level": 60,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_2551600084",
+                                        "min": 2,
+                                        "max": 2
+                                    },
+                                    {
+                                        "hash": "explicit.stat_280731498",
+                                        "min": 8,
+                                        "max": 10
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Blue",
+                                "tier": "P2",
+                                "level": 75,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_1050105434",
+                                        "min": 65,
+                                        "max": 68
+                                    }
+                                ]
+                            }
+                        ],
+                        "implicit": [
+                            {
+                                "name": "",
+                                "tier": "",
+                                "level": 75,
+                                "magnitudes": [
+                                    {
+                                        "hash": "implicit.stat_2387423236",
+                                        "min": 75,
+                                        "max": 85
+                                    },
+                                    {
+                                        "hash": "implicit.stat_2387423236",
+                                        "min": 115,
+                                        "max": 128
+                                    },
+                                    {
+                                        "hash": "implicit.stat_3417711605",
+                                        "min": -10,
+                                        "max": -10
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "",
+                                "tier": "",
+                                "level": 1,
+                                "magnitudes": [
+                                    {
+                                        "hash": "implicit.stat_3513534186",
+                                        "min": 2,
+                                        "max": 2
+                                    }
+                                ]
+                            }
+                        ],
+                        "crafted": [
+                            {
+                                "name": "Upgraded",
+                                "tier": "R4",
+                                "level": 75,
+                                "magnitudes": [
+                                    {
+                                        "hash": "crafted.stat_3299347043",
+                                        "min": 56,
+                                        "max": 70
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "hashes": {
+                        "explicit": [
+                            [
+                                "explicit.stat_2551600084",
+                                [
+                                    3
+                                ]
+                            ],
+                            [
+                                "explicit.stat_4080418644",
+                                [
+                                    0
+                                ]
+                            ],
+                            [
+                                "explicit.stat_3556824919",
+                                [
+                                    2
+                                ]
+                            ],
+                            [
+                                "explicit.stat_1050105434",
+                                [
+                                    4
+                                ]
+                            ],
+                            [
+                                "explicit.stat_280731498",
+                                [
+                                    3
+                                ]
+                            ],
+                            [
+                                "explicit.stat_2511370818",
+                                [
+                                    1
+                                ]
+                            ],
+                            [
+                                "explicit.stat_1575519214",
+                                [
+                                    1
+                                ]
+                            ]
+                        ],
+                        "implicit": [
+                            [
+                                "implicit.stat_2387423236",
+                                [
+                                    0
+                                ]
+                            ],
+                            [
+                                "implicit.stat_3417711605",
+                                [
+                                    0
+                                ]
+                            ],
+                            [
+                                "implicit.stat_3513534186",
+                                [
+                                    1
+                                ]
+                            ]
+                        ],
+                        "crafted": [
+                            [
+                                "crafted.stat_3299347043",
+                                [
+                                    0
+                                ]
+                            ]
+                        ],
+                        "pseudo": [
+                            [
+                                "pseudo.pseudo_global_critical_strike_multiplier",
+                                null
+                            ]
+                        ]
+                    },
+                    "text": "SXRlbSBDbGFzczogSGVsbWV0cw0KUmFyaXR5OiBSYXJlDQpEdXNrIERvbWUNCkJsaXp6YXJkIENyb3duDQotLS0tLS0tLQ0KUXVhbGl0eTogKzIwJSAoYXVnbWVudGVkKQ0KRXZhc2lvbiBSYXRpbmc6IDIzOCAoYXVnbWVudGVkKQ0KRW5lcmd5IFNoaWVsZDogNDggKGF1Z21lbnRlZCkNCi0tLS0tLS0tDQpSZXF1aXJlbWVudHM6DQpMZXZlbDogNzUNCkRleDogNzkNCkludDogNzkNCi0tLS0tLS0tDQpTb2NrZXRzOiBCLVItQi1HIA0KLS0tLS0tLS0NCkl0ZW0gTGV2ZWw6IDgzDQotLS0tLS0tLQ0KQWRkcyA4NSB0byAxMjggQ29sZCBEYW1hZ2UgKGltcGxpY2l0KQ0KWW91ciBIaXRzIHRyZWF0IENvbGQgUmVzaXN0YW5jZSBhcyAxMCUgaGlnaGVyIHRoYW4gYWN0dWFsIHZhbHVlIChpbXBsaWNpdCkNCkl0ZW0gc2VsbHMgZm9yIG11Y2ggbW9yZSB0byB2ZW5kb3JzIChpbXBsaWNpdCkNCi0tLS0tLS0tDQorMiB0byBMZXZlbCBvZiBTb2NrZXRlZCBBb0UgR2Vtcw0KKzU3IHRvIFN0cmVuZ3RoDQorMTIlIHRvIEdsb2JhbCBDcml0aWNhbCBTdHJpa2UgTXVsdGlwbGllcg0KKzY2IHRvIG1heGltdW0gTWFuYQ0KOCUgaW5jcmVhc2VkIEFyZWEgb2YgRWZmZWN0DQoxJSBpbmNyZWFzZWQgQ3JpdGljYWwgU3RyaWtlIENoYW5jZSBwZXIgMTAgU3RyZW5ndGgNCkdhaW4gQWNjdXJhY3kgUmF0aW5nIGVxdWFsIHRvIHlvdXIgU3RyZW5ndGgNCis3MCB0byBtYXhpbXVtIExpZmUgKGNyYWZ0ZWQpDQotLS0tLS0tLQ0KV2FybG9yZCBJdGVtDQotLS0tLS0tLQ0KTm90ZTogfnByaWNlIDcwIGRpdmluZQ0K"
+                },
+                "pseudoMods": [
+                    "+12% Global Critical Strike Multiplier"
+                ]
+            }
+        }
+    ]
+}
