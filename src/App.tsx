@@ -2,92 +2,70 @@ import "./App.css";
 import PrimarySearchAppBar from "./components/appbar.tsx";
 import Box from "@mui/system/Box";
 import * as React from "react";
-import { styled } from "@mui/material/styles";
-import Tooltip, { TooltipProps, tooltipClasses } from "@mui/material/Tooltip";
 import Typography from "@mui/material/Typography";
 import Divider from "@mui/material/Divider";
 import Button from "@mui/material/Button";
 import { useState } from "react";
-
-type Modifier = {
-    text: string;
-    value: number;
-    minRange: number;
-    maxRange: number;
-    tier: number;
-};
-
-type Stash = {
-    Name: string;
-    X: number;
-    Y: number;
-};
-
-type Listing = {
-    Stash: Stash;
-};
-
-type ServerItem = {
-    id: string;
-    Name: string;
-    W: number;
-    H: number;
-    Icon: string;
-    BaseType: string;
-    ImplicitMods: string[];
-    ExplicitMods: string[];
-    CraftedMods: string[];
-};
-
-type ServerItemDescription = {
-    Name: string;
-    Listing: Listing;
-    Item: ServerItem;
-};
-
-class Item {
-    id: string;
-    name: string;
-    baseType: string;
-    image: string;
-    row: number;
-    column: number;
-    width: number;
-    height: number;
-    implicitModifiers: Modifier[];
-    explicitModifiers: Modifier[];
-    craftedModifiers: Modifier[];
-
-    constructor() {
-        this.id = "???";
-        this.name = "???";
-        this.baseType = "???";
-        this.image = "???";
-        this.row = -1;
-        this.column = -1;
-        this.width = 1;
-        this.height = 1;
-        this.implicitModifiers = [];
-        this.explicitModifiers = [];
-        this.craftedModifiers = [];
-    }
-}
-
-const HtmlTooltip = styled(({ className, ...props }: TooltipProps) => (
-    <Tooltip {...props} classes={{ popper: className }} />
-))(({ theme }) => ({
-    [`& .${tooltipClasses.tooltip}`]: {
-        backgroundColor: "black",
-        color: "rgba(0, 0, 0, 0.87)",
-        maxWidth: "none",
-        fontSize: theme.typography.pxToRem(12),
-        border: "1px solid #dadde9",
-    },
-}));
+import { ServerItemDescription } from "./api/api.tsx";
+import { Item } from "./model/model.tsx";
+import { HtmlTooltip } from "./components/htmltooltip.tsx";
 
 const cellDimension: number = 31;
 const itemCellDimension: number = 31;
 const borderSize: number = 2;
+
+function App() {
+    const [items, setItems] = useState<Item[]>([]);
+
+    function handleClick() {
+        fetch("http://localhost:8080/search?account=kkevinchou", {
+            method: "GET",
+            headers: {
+                Accept: "application/json",
+                "Content-Type": "application/json",
+            },
+        })
+            .then((response) => {
+                return response.json();
+            })
+            .then((jsonResponse) => {
+                setItems(parseStashJSON(jsonResponse.Result));
+            });
+    }
+
+    return (
+        <>
+            <PrimarySearchAppBar></PrimarySearchAppBar>
+            <Box
+                display="flex"
+                sx={{ width: "100%", paddingTop: 3 }}
+                alignContent={"center"}
+                alignItems={"center"}
+                justifyContent={"center"}
+            >
+                <Box
+                    sx={{
+                        width: 833,
+                        height: 863,
+                        backgroundImage: 'url("src/assets/quadtab2.png")',
+                        backgroundSize: "cover",
+                        backgroundPosition: "center top",
+                        boxShadow: "10px 10px 20px rgba(0, 0, 0, 1)",
+                        borderRadius: 3,
+                    }}
+                    position={"relative"}
+                >
+                    {generateRenderedItems(items)}
+                </Box>
+            </Box>
+            <Button variant="contained" onClick={handleClick}>
+                Load
+            </Button>
+        </>
+    );
+}
+
+export default App;
 
 const parseStashJSON = (serverItems: ServerItemDescription[]) => {
     const result: Item[] = [];
@@ -254,56 +232,3 @@ const generateRenderedItems = (items: Item[]) => {
 
     return renderedItem;
 };
-
-function App() {
-    const [items, setItems] = useState<Item[]>([]);
-
-    function handleClick() {
-        fetch("http://localhost:8080/search?account=kkevinchou", {
-            method: "GET",
-            headers: {
-                Accept: "application/json",
-                "Content-Type": "application/json",
-            },
-        })
-            .then((response) => {
-                return response.json();
-            })
-            .then((jsonResponse) => {
-                setItems(parseStashJSON(jsonResponse.Result));
-            });
-    }
-
-    return (
-        <>
-            <PrimarySearchAppBar></PrimarySearchAppBar>
-            <Box
-                display="flex"
-                sx={{ width: "100%", paddingTop: 3 }}
-                alignContent={"center"}
-                alignItems={"center"}
-                justifyContent={"center"}
-            >
-                <Box
-                    sx={{
-                        width: 833,
-                        height: 863,
-                        backgroundImage: 'url("src/assets/quadtab2.png")',
-                        backgroundSize: "cover",
-                        backgroundPosition: "center top",
-                        boxShadow: "10px 10px 20px rgba(0, 0, 0, 1)",
-                        borderRadius: 3,
-                    }}
-                    position={"relative"}
-                >
-                    {generateRenderedItems(items)}
-                </Box>
-            </Box>
-            <Button variant="contained" onClick={handleClick}>
-                Load
-            </Button>
-        </>
-    );
-}
-
-export default App;

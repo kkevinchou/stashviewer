@@ -1,0 +1,35 @@
+export class Item {
+    id: string;
+    name: string;
+    baseType: string;
+    image: string;
+    row: number;
+    column: number;
+    width: number;
+    height: number;
+    implicitModifiers: Modifier[];
+    explicitModifiers: Modifier[];
+    craftedModifiers: Modifier[];
+
+    constructor() {
+        this.id = "???";
+        this.name = "???";
+        this.baseType = "???";
+        this.image = "???";
+        this.row = -1;
+        this.column = -1;
+        this.width = 1;
+        this.height = 1;
+        this.implicitModifiers = [];
+        this.explicitModifiers = [];
+        this.craftedModifiers = [];
+    }
+}
+
+export type Modifier = {
+    text: string;
+    value: number;
+    minRange: number;
+    maxRange: number;
+    tier: number;
+};
