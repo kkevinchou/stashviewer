@@ -7,6 +7,7 @@ export class Item {
     column: number;
     width: number;
     height: number;
+    stash: string;
     implicitModifiers: Modifier[];
     explicitModifiers: Modifier[];
     craftedModifiers: Modifier[];
@@ -20,6 +21,7 @@ export class Item {
         this.column = -1;
         this.width = 1;
         this.height = 1;
+        this.stash = "???";
         this.implicitModifiers = [];
         this.explicitModifiers = [];
         this.craftedModifiers = [];

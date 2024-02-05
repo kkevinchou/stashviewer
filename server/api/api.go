@@ -57,7 +57,7 @@ func search(account string) (*SearchResponse, error) {
 	url := "https://www.pathofexile.com/api/trade/search/Affliction"
 
 	body := []byte(
-		fmt.Sprintf(`{"query":{"status":{"option":"any"},"stats":[{"type":"and","filters":[],"disabled":false}],"filters":{"trade_filters":{"filters":{"account":{"input":"%s"},"price":{"option":"divine","min":69}}},"type_filters":{"filters":{"rarity":{"option":"rare"}}}}},"sort":{"price":"asc"}}`, account),
+		fmt.Sprintf(`{"query":{"status":{"option":"any"},"stats":[{"type":"and","filters":[],"disabled":false}],"filters":{"trade_filters":{"filters":{"account":{"input":"%s"}}},"type_filters":{"filters":{"rarity":{"option":"rare"}}}}},"sort":{"price":"asc"}}`, account),
 	)
 
 	req, err := http.NewRequest("POST", url, bytes.NewBuffer(body))
@@ -139,6 +139,7 @@ func getItems(sr *SearchResponse) (*SearchResultResponse, error) {
 		json.Unmarshal(bytes, &srr)
 
 		getItemsResult.Result = append(getItemsResult.Result, srr.Result...)
+		break
 		time.Sleep(1 * time.Second)
 	}
 
