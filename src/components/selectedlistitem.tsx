@@ -4,10 +4,7 @@ import List from "@mui/material/List";
 import ListItemButton from "@mui/material/ListItemButton";
 import ListItemText from "@mui/material/ListItemText";
 
-type ClickHandler = (
-    event: React.MouseEvent<HTMLDivElement, MouseEvent>,
-    index: number
-) => void;
+type ClickHandler = (index: number, name: string) => void;
 
 type Props = {
     stashTabs: string[];
@@ -23,7 +20,7 @@ export default function SelectedListItem(props: Props) {
                     <ListItemButton
                         selected={props.selectedIndex === index}
                         key={stashTab + index}
-                        onClick={(event) => props.clickHandler(event, index)}
+                        onClick={() => props.clickHandler(index, stashTab)}
                     >
                         <ListItemText primary={stashTab} />
                     </ListItemButton>

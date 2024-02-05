@@ -11,6 +11,18 @@ import { Item } from "./model/model.tsx";
 import { HtmlTooltip } from "./components/htmltooltip.tsx";
 import SelectedListItem from "./components/selectedlistitem.tsx";
 import TextField from "@mui/material/TextField";
+import { ThemeProvider, createTheme } from "@mui/material/styles";
+
+const theme = createTheme({
+    palette: {
+        primary: {
+            light: "#005B41",
+            main: "#0F0F0F",
+            dark: "#232D3F",
+            contrastText: "#fff",
+        },
+    },
+});
 
 const cellDimension: number = 31;
 const itemCellDimension: number = 31;
@@ -20,14 +32,12 @@ function App() {
     const [items, setItems] = useState<Item[]>([]);
     const [account, setAccount] = useState("kkevinchou");
     const [stashTabs, setStashTabs] = useState<string[]>([]);
+    const [selectedStashIndex, setSelectedSttashIndex] = React.useState(1);
+    const [selectedStash, setSelectedStash] = React.useState("");
 
-    const [selectedIndex, setSelectedIndex] = React.useState(1);
-
-    const handleListItemClick = (
-        event: React.MouseEvent<HTMLDivElement, MouseEvent>,
-        index: number
-    ) => {
-        setSelectedIndex(index);
+    const handleListItemClick = (index: number, name: string) => {
+        setSelectedSttashIndex(index);
+        setSelectedStash(name);
     };
 
     function handleTextFieldChange(event: React.ChangeEvent<HTMLInputElement>) {
@@ -52,59 +62,72 @@ function App() {
                     stashes.push(item.stash);
                 });
                 setItems(stashJSON);
-                setStashTabs(Array.from(new Set(stashes)));
+                const uniqueStashTabs = Array.from(new Set(stashes));
+                setStashTabs(uniqueStashTabs);
+                if (uniqueStashTabs.length > 0) {
+                    setSelectedSttashIndex(0);
+                    setSelectedStash(uniqueStashTabs[0]);
+                }
             });
     }
 
     return (
         <>
-            <PrimarySearchAppBar></PrimarySearchAppBar>
-            <Box
-                display="flex"
-                sx={{ width: "100%", paddingTop: 3 }}
-                alignContent={"center"}
-                alignItems={"center"}
-                justifyContent={"center"}
-            >
-                <Box sx={{ height: 863 }}>
+            <ThemeProvider theme={theme}>
+                <PrimarySearchAppBar></PrimarySearchAppBar>
+                <Box
+                    display="flex"
+                    sx={{ width: "100%", paddingTop: 3 }}
+                    alignContent={"center"}
+                    alignItems={"center"}
+                    justifyContent={"center"}
+                >
+                    <Box sx={{ height: 863 }}>
+                        <Box
+                            sx={{
+                                boxShadow: "10px 10px 20px rgba(0, 0, 0, 1)",
+                                borderRadius: 3,
+                            }}
+                            position={"relative"}
+                        >
+                            <SelectedListItem
+                                stashTabs={stashTabs}
+                                selectedIndex={selectedStashIndex}
+                                clickHandler={handleListItemClick}
+                            />
+                        </Box>
+                    </Box>
                     <Box
                         sx={{
+                            width: 833,
+                            height: 863,
+                            backgroundImage: 'url("src/assets/quadtab2.png")',
+                            backgroundSize: "cover",
+                            backgroundPosition: "center top",
                             boxShadow: "10px 10px 20px rgba(0, 0, 0, 1)",
                             borderRadius: 3,
                         }}
                         position={"relative"}
                     >
-                        <SelectedListItem
-                            stashTabs={stashTabs}
-                            selectedIndex={selectedIndex}
-                            clickHandler={handleListItemClick}
-                        />
+                        {generateRenderedItems(items, selectedStash)}
                     </Box>
                 </Box>
-                <Box
-                    sx={{
-                        width: 833,
-                        height: 863,
-                        backgroundImage: 'url("src/assets/quadtab2.png")',
-                        backgroundSize: "cover",
-                        backgroundPosition: "center top",
-                        boxShadow: "10px 10px 20px rgba(0, 0, 0, 1)",
-                        borderRadius: 3,
-                    }}
-                    position={"relative"}
-                >
-                    {generateRenderedItems(items)}
+                <Box>
+                    <TextField
+                        id="outlined-basic"
+                        label="Account Name"
+                        variant="outlined"
+                        onChange={handleTextFieldChange}
+                    />
+                    <Button
+                        sx={{ width: 100, height: 50 }}
+                        variant="contained"
+                        onClick={handleClick}
+                    >
+                        Load
+                    </Button>
                 </Box>
-            </Box>
-            <TextField
-                id="outlined-basic"
-                label="Outlined"
-                variant="outlined"
-                onChange={handleTextFieldChange}
-            />
-            <Button variant="contained" onClick={handleClick}>
-                Load
-            </Button>
+            </ThemeProvider>
         </>
     );
 }
@@ -129,7 +152,6 @@ const parseStashJSON = (serverItems: ServerItemDescription[]) => {
 
         if (itemDescription.Item.ImplicitMods) {
             itemDescription.Item.ImplicitMods.forEach((text) => {
-                console.log(text);
                 item.implicitModifiers.push({
                     text: text,
                     value: 0,
@@ -170,9 +192,12 @@ const parseStashJSON = (serverItems: ServerItemDescription[]) => {
     return result;
 };
 
-const generateRenderedItems = (items: Item[]) => {
+const generateRenderedItems = (items: Item[], selectedStash: string) => {
     const renderedItem: React.ReactElement[] = [];
     items.forEach((item) => {
+        if (item.stash != selectedStash) {
+            return;
+        }
         renderedItem.push(
             <Box
                 position="absolute"

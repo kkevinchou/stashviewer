@@ -139,7 +139,6 @@ func getItems(sr *SearchResponse) (*SearchResultResponse, error) {
 		json.Unmarshal(bytes, &srr)
 
 		getItemsResult.Result = append(getItemsResult.Result, srr.Result...)
-		break
 		time.Sleep(1 * time.Second)
 	}
 
