@@ -21,6 +21,10 @@ const theme = createTheme({
             dark: "#232D3F",
             contrastText: "#fff",
         },
+        text: {
+            primary: "#FFFFFF",
+            secondary: "#FFFFFF",
+        },
     },
 });
 
@@ -74,7 +78,6 @@ function App() {
     return (
         <>
             <ThemeProvider theme={theme}>
-                <PrimarySearchAppBar></PrimarySearchAppBar>
                 <Box
                     display="flex"
                     sx={{ width: "100%", paddingTop: 3 }}
@@ -114,9 +117,9 @@ function App() {
                 </Box>
                 <Box>
                     <TextField
-                        id="outlined-basic"
                         label="Account Name"
-                        variant="outlined"
+                        variant="filled"
+                        sx={{ backgroundColor: "#005B41" }}
                         onChange={handleTextFieldChange}
                     />
                     <Button
