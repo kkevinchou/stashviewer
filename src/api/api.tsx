@@ -24,6 +24,7 @@ type ServerItem = {
     ImplicitMods: string[];
     ExplicitMods: string[];
     CraftedMods: string[];
+    FracturedMods: string[];
 };
 
 export type ServerItemDescription = {

@@ -192,6 +192,18 @@ const parseStashJSON = (serverItems: ServerItemDescription[]) => {
             });
         }
 
+        if (itemDescription.Item.FracturedMods) {
+            itemDescription.Item.FracturedMods.forEach((text) => {
+                item.fracturedModifiers.push({
+                    text: text,
+                    value: 0,
+                    minRange: 0,
+                    maxRange: 0,
+                    tier: 0,
+                });
+            });
+        }
+
         result.push(item);
     });
 
@@ -266,6 +278,20 @@ const generateRenderedItems = (items: Item[], selectedStash: string) => {
                                         }}
                                     ></Divider>
                                 ) : null}
+                                {item.fracturedModifiers.map(
+                                    (modifier, index) => (
+                                        <Typography
+                                            sx={{
+                                                textAlign: "center",
+                                            }}
+                                            key={item.id + "implicit" + index}
+                                        >
+                                            <span style={{ color: "#A29160" }}>
+                                                {modifier.text}
+                                            </span>
+                                        </Typography>
+                                    )
+                                )}
                                 {item.explicitModifiers.map(
                                     (modifier, index) => (
                                         <Typography

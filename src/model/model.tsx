@@ -13,6 +13,7 @@ export class Item {
     implicitModifiers: Modifier[];
     explicitModifiers: Modifier[];
     craftedModifiers: Modifier[];
+    fracturedModifiers: Modifier[];
 
     constructor() {
         this.id = "???";
@@ -29,6 +30,7 @@ export class Item {
         this.implicitModifiers = [];
         this.explicitModifiers = [];
         this.craftedModifiers = [];
+        this.fracturedModifiers = [];
     }
 }
 

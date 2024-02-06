@@ -46,9 +46,22 @@ func Handler(w http.ResponseWriter, r *http.Request) {
 	// 	return
 	// }
 
+	// // cache real data
+	// bytes, err := json.Marshal(*srr)
+	// if err != nil {
+	// 	panic(err)
+	// }
+
+	// err = os.WriteFile(fmt.Sprintf("./sample/%s-%d.json", account, time.Now().Unix()), bytes, 0644)
+	// if err != nil {
+	// 	panic(err)
+	// }
+
+	// DEBUGGING
+
 	srr := &SearchResultResponse{}
 
-	f, err := os.Open("./sample/search_result2.json")
+	f, err := os.Open("./sample/kkevinchou-1707189260.json")
 	if err != nil {
 		panic(err)
 	}

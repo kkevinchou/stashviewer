@@ -16,18 +16,19 @@ type Result struct {
 }
 
 type Item struct {
-	ID           string `json:"id"`
-	W            int
-	H            int
-	Icon         string
-	Influences   map[string]bool
-	Name         string
-	BaseType     string
-	Ilvl         int
-	Identified   bool
-	ImplicitMods []string
-	ExplicitMods []string
-	CraftedMods  []string
+	ID            string `json:"id"`
+	W             int
+	H             int
+	Icon          string
+	Influences    map[string]bool
+	Name          string
+	BaseType      string
+	Ilvl          int
+	Identified    bool
+	ImplicitMods  []string
+	ExplicitMods  []string
+	CraftedMods   []string
+	FracturedMods []string
 }
 
 type Listing struct {
