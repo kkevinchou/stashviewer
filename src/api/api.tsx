@@ -4,8 +4,14 @@ type Stash = {
     Y: number;
 };
 
+type Price = {
+    Amount: number;
+    Currency: string;
+};
+
 type Listing = {
     Stash: Stash;
+    Price: Price;
 };
 
 type ServerItem = {

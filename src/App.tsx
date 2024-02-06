@@ -1,5 +1,4 @@
 import "./App.css";
-import PrimarySearchAppBar from "./components/appbar.tsx";
 import Box from "@mui/system/Box";
 import * as React from "react";
 import Typography from "@mui/material/Typography";
@@ -12,6 +11,8 @@ import { HtmlTooltip } from "./components/htmltooltip.tsx";
 import SelectedListItem from "./components/selectedlistitem.tsx";
 import TextField from "@mui/material/TextField";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
+import divineorb from "./assets/divineorb.png";
+import chaosorb from "./assets/chaosorb.png";
 
 const theme = createTheme({
     palette: {
@@ -152,6 +153,8 @@ const parseStashJSON = (serverItems: ServerItemDescription[]) => {
         item.height = itemDescription.Item.H;
         item.image = itemDescription.Item.Icon;
         item.stash = itemDescription.Listing.Stash.Name;
+        item.priceAmount = itemDescription.Listing.Price.Amount;
+        item.priceCurrency = itemDescription.Listing.Price.Currency;
 
         if (itemDescription.Item.ImplicitMods) {
             itemDescription.Item.ImplicitMods.forEach((text) => {
@@ -201,6 +204,14 @@ const generateRenderedItems = (items: Item[], selectedStash: string) => {
         if (item.stash != selectedStash) {
             return;
         }
+
+        let currencyImage = "";
+        if (item.priceCurrency == "divine") {
+            currencyImage = divineorb;
+        } else if (item.priceCurrency == "chaos") {
+            currencyImage = chaosorb;
+        }
+
         renderedItem.push(
             <Box
                 position="absolute"
@@ -210,7 +221,6 @@ const generateRenderedItems = (items: Item[], selectedStash: string) => {
             >
                 <HtmlTooltip
                     placement="top"
-                    leaveTouchDelay={0}
                     title={
                         <React.Fragment>
                             <Box>
@@ -284,6 +294,41 @@ const generateRenderedItems = (items: Item[], selectedStash: string) => {
                                         </Typography>
                                     )
                                 )}
+                                <Box display={"flex"} justifyContent={"center"}>
+                                    <Box
+                                        sx={{
+                                            display: "flex",
+                                            height: "100",
+                                            color: "#E8C872",
+                                            justifyContent: "center",
+                                            alignItems: "center",
+                                        }}
+                                    >
+                                        <Typography>
+                                            {item.priceAmount + "X"}
+                                        </Typography>
+                                    </Box>
+                                    <Box sx={{ height: "100%" }}>
+                                        <img
+                                            width={30}
+                                            height={30}
+                                            src={currencyImage}
+                                        ></img>
+                                    </Box>
+                                    <Box
+                                        sx={{
+                                            display: "flex",
+                                            justifyContent: "center",
+                                            height: "100",
+                                            color: "#E8C872",
+                                            alignItems: "center",
+                                        }}
+                                    >
+                                        <Typography>
+                                            {item.priceCurrency + " orb"}
+                                        </Typography>
+                                    </Box>
+                                </Box>
                             </Box>
                         </React.Fragment>
                     }

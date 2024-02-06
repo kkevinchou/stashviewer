@@ -6,6 +6,7 @@ import (
 	"fmt"
 	"io"
 	"net/http"
+	"os"
 	"strings"
 	"time"
 )
@@ -22,30 +23,47 @@ func Handler(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	query := r.URL.Query()["account"]
-	if len(query) <= 0 {
-		w.WriteHeader(http.StatusInternalServerError)
-		w.Write([]byte("missing account query parameter"))
-		return
-	}
+	// query := r.URL.Query()["account"]
+	// if len(query) <= 0 {
+	// 	w.WriteHeader(http.StatusInternalServerError)
+	// 	w.Write([]byte("missing account query parameter"))
+	// 	return
+	// }
 
-	account := query[0]
+	// account := query[0]
 
-	sr, err := search(account)
+	// sr, err := search(account)
+	// if err != nil {
+	// 	w.WriteHeader(http.StatusInternalServerError)
+	// 	w.Write([]byte(fmt.Sprintf("failed to fetch search results %s", err.Error())))
+	// 	return
+	// }
+
+	// srr, err := getItems(sr)
+	// if err != nil {
+	// 	w.WriteHeader(http.StatusInternalServerError)
+	// 	w.Write([]byte(fmt.Sprintf("failed to fetch items %s", err.Error())))
+	// 	return
+	// }
+
+	srr := &SearchResultResponse{}
+
+	f, err := os.Open("./sample/search_result2.json")
 	if err != nil {
-		w.WriteHeader(http.StatusInternalServerError)
-		w.Write([]byte(fmt.Sprintf("failed to fetch search results %s", err.Error())))
-		return
+		panic(err)
 	}
+	defer f.Close()
 
-	srr, err := getItems(sr)
+	bytes, err := io.ReadAll(f)
 	if err != nil {
-		w.WriteHeader(http.StatusInternalServerError)
-		w.Write([]byte(fmt.Sprintf("failed to fetch items %s", err.Error())))
-		return
+		panic(err)
 	}
 
-	// response := Response{Message: string(bytes)}
+	err = json.Unmarshal(bytes, srr)
+	if err != nil {
+		panic(err)
+	}
+
 	w.Header().Set("Content-Type", "application/json")
 	w.Header().Set("Access-Control-Allow-Origin", "*")
 	w.Header().Set("Access-Control-Allow-Methods", "GET, POST, OPTIONS")

@@ -8,6 +8,8 @@ export class Item {
     width: number;
     height: number;
     stash: string;
+    priceAmount: number;
+    priceCurrency: string;
     implicitModifiers: Modifier[];
     explicitModifiers: Modifier[];
     craftedModifiers: Modifier[];
@@ -22,6 +24,8 @@ export class Item {
         this.width = 1;
         this.height = 1;
         this.stash = "???";
+        this.priceAmount = 0;
+        this.priceCurrency = "???";
         this.implicitModifiers = [];
         this.explicitModifiers = [];
         this.craftedModifiers = [];
