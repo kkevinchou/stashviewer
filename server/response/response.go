@@ -1,4 +1,4 @@
-package api
+package response
 
 type SearchResponse struct {
 	ID     string `json:"id"`

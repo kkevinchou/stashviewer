@@ -14,7 +14,7 @@ type Props = {
 
 export default function SelectedListItem(props: Props) {
     return (
-        <Box sx={{ width: "100%", maxWidth: 360, bgcolor: "background.paper" }}>
+        <Box sx={{ width: "100%", maxWidth: 360, bgcolor: "#005B41" }}>
             <List component="nav" aria-label="secondary mailbox folder">
                 {props.stashTabs.map((stashTab, index) => (
                     <ListItemButton

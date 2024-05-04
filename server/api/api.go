@@ -9,10 +9,18 @@ import (
 	"os"
 	"strings"
 	"time"
+
+	"github.com/kkevinchou/stashviewer/app"
+	"github.com/kkevinchou/stashviewer/response"
+	"github.com/kkevinchou/stashviewer/settings"
 )
 
 type Response struct {
 	Message string
+}
+
+type API struct {
+	App app.App
 }
 
 func Handler(w http.ResponseWriter, r *http.Request) {
@@ -23,56 +31,36 @@ func Handler(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	// query := r.URL.Query()["account"]
-	// if len(query) <= 0 {
-	// 	w.WriteHeader(http.StatusInternalServerError)
-	// 	w.Write([]byte("missing account query parameter"))
-	// 	return
-	// }
-
-	// account := query[0]
-
-	// sr, err := search(account)
-	// if err != nil {
-	// 	w.WriteHeader(http.StatusInternalServerError)
-	// 	w.Write([]byte(fmt.Sprintf("failed to fetch search results %s", err.Error())))
-	// 	return
-	// }
-
-	// srr, err := getItems(sr)
-	// if err != nil {
-	// 	w.WriteHeader(http.StatusInternalServerError)
-	// 	w.Write([]byte(fmt.Sprintf("failed to fetch items %s", err.Error())))
-	// 	return
-	// }
-
-	// // cache real data
-	// bytes, err := json.Marshal(*srr)
-	// if err != nil {
-	// 	panic(err)
-	// }
-
-	// err = os.WriteFile(fmt.Sprintf("./sample/%s-%d.json", account, time.Now().Unix()), bytes, 0644)
-	// if err != nil {
-	// 	panic(err)
-	// }
-
-	// DEBUGGING
-
-	srr := &SearchResultResponse{}
-
-	f, err := os.Open("./sample/kkevinchou-1707189260.json")
-	if err != nil {
-		panic(err)
+	query := r.URL.Query()["account"]
+	if len(query) <= 0 {
+		w.WriteHeader(http.StatusInternalServerError)
+		w.Write([]byte("missing account query parameter"))
+		return
 	}
-	defer f.Close()
 
-	bytes, err := io.ReadAll(f)
+	account := query[0]
+
+	sr, err := search(account)
+	if err != nil {
+		w.WriteHeader(http.StatusInternalServerError)
+		w.Write([]byte(fmt.Sprintf("failed to fetch search results %s", err.Error())))
+		return
+	}
+
+	srr, err := getItems(sr)
+	if err != nil {
+		w.WriteHeader(http.StatusInternalServerError)
+		w.Write([]byte(fmt.Sprintf("failed to fetch items %s", err.Error())))
+		return
+	}
+
+	// cache data
+	bytes, err := json.Marshal(*srr)
 	if err != nil {
 		panic(err)
 	}
 
-	err = json.Unmarshal(bytes, srr)
+	err = os.WriteFile(fmt.Sprintf("./sample/%s-%d.json", account, time.Now().Unix()), bytes, 0644)
 	if err != nil {
 		panic(err)
 	}
@@ -84,11 +72,11 @@ func Handler(w http.ResponseWriter, r *http.Request) {
 	json.NewEncoder(w).Encode(srr)
 }
 
-func search(account string) (*SearchResponse, error) {
-	url := "https://www.pathofexile.com/api/trade/search/Affliction"
+func search(account string) (*response.SearchResponse, error) {
+	url := "https://www.pathofexile.com/api/trade/search/Necropolis"
 
 	body := []byte(
-		fmt.Sprintf(`{"query":{"status":{"option":"any"},"stats":[{"type":"and","filters":[],"disabled":false}],"filters":{"trade_filters":{"filters":{"account":{"input":"%s"}}},"type_filters":{"filters":{"rarity":{"option":"rare"}}}}},"sort":{"price":"asc"}}`, account),
+		fmt.Sprintf(`{"query":{"status":{"option":"any"},"stats":[{"type":"and","filters":[],"disabled":false}],"filters":{"trade_filters":{"filters":{"account":{"input":"%s"},"price":{"min":10,"option":"divine"}}},"type_filters":{"filters":{"rarity":{"option":"rare"}}}}},"sort":{"price":"desc"}}`, account),
 	)
 
 	req, err := http.NewRequest("POST", url, bytes.NewBuffer(body))
@@ -117,14 +105,14 @@ func search(account string) (*SearchResponse, error) {
 		return nil, err
 	}
 
-	var sr SearchResponse
+	var sr response.SearchResponse
 	json.Unmarshal(bytes, &sr)
 
 	return &sr, nil
 }
 
-func getItems(sr *SearchResponse) (*SearchResultResponse, error) {
-	var getItemsResult SearchResultResponse
+func getItems(sr *response.SearchResponse) (*response.SearchResultResponse, error) {
+	var getItemsResult response.SearchResultResponse
 
 	batchSize := 5
 
@@ -166,11 +154,11 @@ func getItems(sr *SearchResponse) (*SearchResultResponse, error) {
 			fmt.Println(err)
 		}
 
-		var srr SearchResultResponse
+		var srr response.SearchResultResponse
 		json.Unmarshal(bytes, &srr)
 
 		getItemsResult.Result = append(getItemsResult.Result, srr.Result...)
-		time.Sleep(1 * time.Second)
+		time.Sleep(settings.Sleep * time.Second)
 	}
 
 	return &getItemsResult, nil

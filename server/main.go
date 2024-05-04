@@ -5,6 +5,7 @@ import (
 	"net/http"
 
 	"github.com/kkevinchou/stashviewer/api"
+	"github.com/kkevinchou/stashviewer/settings"
 )
 
 func main() {
@@ -12,7 +13,11 @@ func main() {
 }
 
 func startAPI() {
-	http.HandleFunc("/search", api.Handler)
+	if settings.DEBUG {
+		http.HandleFunc("/search", api.DebugHandler)
+	} else {
+		http.HandleFunc("/search", api.Handler)
+	}
 
 	fmt.Println("Server running on port 8080")
 	err := http.ListenAndServe(":8080", nil)
