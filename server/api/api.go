@@ -76,7 +76,9 @@ func search(account string) (*response.SearchResponse, error) {
 	url := "https://www.pathofexile.com/api/trade/search/Necropolis"
 
 	body := []byte(
-		fmt.Sprintf(`{"query":{"status":{"option":"any"},"stats":[{"type":"and","filters":[],"disabled":false}],"filters":{"trade_filters":{"filters":{"account":{"input":"%s"},"price":{"min":10,"option":"divine"}}},"type_filters":{"filters":{"rarity":{"option":"rare"}}}}},"sort":{"price":"desc"}}`, account),
+		// fmt.Sprintf(`{"query":{"status":{"option":"any"},"stats":[{"type":"and","filters":[],"disabled":false}],"filters":{"trade_filters":{"filters":{"account":{"input":"%s"},"price":{"min":10,"option":"divine"}}},"type_filters":{"filters":{"rarity":{"option":"rare"}}}}},"sort":{"price":"desc"}}`, account),
+		// fmt.Sprintf(`{"query":{"type": "Fingerless Silk Gloves", "status":{"option":"any"},"stats":[{"type":"and","filters":[],"disabled":false}],"filters":{"trade_filters":{"filters":{"account":{"input":"%s"},"price":{"min":10,"option":"divine"}}},"type_filters":{"filters":{"rarity":{"option":"rare"}}}}},"sort":{"price":"desc"}}`, account),
+		fmt.Sprintf(`{"query":{"type": "Prismatic Jewel", "status":{"option":"any"},"stats":[{"type":"and","filters":[],"disabled":false}],"filters":{"trade_filters":{"filters":{"account":{"input":"%s"},"price":{"min":10,"option":"divine"}}},"type_filters":{"filters":{"rarity":{"option":"unique"}}}}},"sort":{"price":"desc"}}`, account),
 	)
 
 	req, err := http.NewRequest("POST", url, bytes.NewBuffer(body))

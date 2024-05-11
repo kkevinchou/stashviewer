@@ -5,29 +5,14 @@ import Typography from "@mui/material/Typography";
 import Divider from "@mui/material/Divider";
 import Button from "@mui/material/Button";
 import { useState } from "react";
-import { ServerItemDescription } from "./api/api.tsx";
 import { Item } from "./model/model.tsx";
 import { HtmlTooltip } from "./components/htmltooltip.tsx";
 import SelectedListItem from "./components/selectedlistitem.tsx";
+import { ParseStashJSON } from "./parsing.tsx";
 import TextField from "@mui/material/TextField";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 import divineorb from "./assets/divineorb.png";
 import chaosorb from "./assets/chaosorb.png";
-
-const theme = createTheme({
-    palette: {
-        primary: {
-            light: "#005B41",
-            main: "#0F0F0F",
-            dark: "#232D3F",
-            contrastText: "#fff",
-        },
-        text: {
-            primary: "#FFFFFF",
-            secondary: "#FFFFFF",
-        },
-    },
-});
 
 const cellDimension: number = 31;
 const itemCellDimension: number = 31;
@@ -49,6 +34,36 @@ function App() {
         setAccount(event.target.value);
     }
 
+    function handleTest() {
+        console.log("click");
+        const websocketURL = "ws://localhost:8080/ws";
+        const socket = new WebSocket(websocketURL);
+
+        // Connection opened
+        socket.onopen = (event) => {
+            console.log("Connection opened", event);
+            // You can now send data using socket.send(data);
+            setTimeout(() => {
+                socket.send("Hello again from the client!");
+            }, 2000);
+        };
+
+        // Listen for messages
+        socket.onmessage = (event) => {
+            console.log("Message from server ", event.data);
+        };
+
+        // Listen for possible errors
+        socket.onerror = (error) => {
+            console.error("WebSocket Error ", error);
+        };
+
+        // Connection closed
+        socket.onclose = (event) => {
+            console.log("Connection closed", event);
+        };
+    }
+
     function handleClick() {
         fetch("http://localhost:8080/search?account=" + account, {
             method: "GET",
@@ -61,7 +76,7 @@ function App() {
                 return response.json();
             })
             .then((jsonResponse) => {
-                const stashJSON = parseStashJSON(jsonResponse.Result);
+                const stashJSON = ParseStashJSON(jsonResponse.Result);
                 const stashes: string[] = [];
                 stashJSON.forEach((item) => {
                     stashes.push(item.stash);
@@ -75,6 +90,21 @@ function App() {
                 }
             });
     }
+
+    const theme = createTheme({
+        palette: {
+            primary: {
+                light: "#005B41",
+                main: "#0F0F0F",
+                dark: "#232D3F",
+                contrastText: "#fff",
+            },
+            text: {
+                primary: "#FFFFFF",
+                secondary: "#FFFFFF",
+            },
+        },
+    });
 
     return (
         <>
@@ -130,6 +160,13 @@ function App() {
                     >
                         Load
                     </Button>
+                    <Button
+                        sx={{ width: 100, height: 50 }}
+                        variant="contained"
+                        onClick={handleTest}
+                    >
+                        Test
+                    </Button>
                 </Box>
             </ThemeProvider>
         </>
@@ -137,78 +174,6 @@ function App() {
 }
 
 export default App;
-
-const parseStashJSON = (serverItems: ServerItemDescription[]) => {
-    const result: Item[] = [];
-
-    serverItems.forEach((itemDescription: ServerItemDescription) => {
-        const item = new Item();
-
-        item.id = itemDescription.Item.id;
-        item.name = itemDescription.Item.Name;
-        item.baseType = itemDescription.Item.BaseType;
-        item.row = itemDescription.Listing.Stash.Y;
-        item.column = itemDescription.Listing.Stash.X;
-        item.width = itemDescription.Item.W;
-        item.height = itemDescription.Item.H;
-        item.image = itemDescription.Item.Icon;
-        item.stash = itemDescription.Listing.Stash.Name;
-        item.priceAmount = itemDescription.Listing.Price.Amount;
-        item.priceCurrency = itemDescription.Listing.Price.Currency;
-
-        if (itemDescription.Item.ImplicitMods) {
-            itemDescription.Item.ImplicitMods.forEach((text) => {
-                item.implicitModifiers.push({
-                    text: text,
-                    value: 0,
-                    minRange: 0,
-                    maxRange: 0,
-                    tier: 0,
-                });
-            });
-        }
-
-        if (itemDescription.Item.ExplicitMods) {
-            itemDescription.Item.ExplicitMods.forEach((text) => {
-                item.explicitModifiers.push({
-                    text: text,
-                    value: 0,
-                    minRange: 0,
-                    maxRange: 0,
-                    tier: 0,
-                });
-            });
-        }
-
-        if (itemDescription.Item.CraftedMods) {
-            itemDescription.Item.CraftedMods.forEach((text) => {
-                item.craftedModifiers.push({
-                    text: text,
-                    value: 0,
-                    minRange: 0,
-                    maxRange: 0,
-                    tier: 0,
-                });
-            });
-        }
-
-        if (itemDescription.Item.FracturedMods) {
-            itemDescription.Item.FracturedMods.forEach((text) => {
-                item.fracturedModifiers.push({
-                    text: text,
-                    value: 0,
-                    minRange: 0,
-                    maxRange: 0,
-                    tier: 0,
-                });
-            });
-        }
-
-        result.push(item);
-    });
-
-    return result;
-};
 
 const generateRenderedItems = (items: Item[], selectedStash: string) => {
     const renderedItem: React.ReactElement[] = [];
